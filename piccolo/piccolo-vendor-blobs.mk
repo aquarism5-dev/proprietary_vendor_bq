@@ -118,6 +118,8 @@ PRODUCT_COPY_FILES += \
     vendor/bq/piccolo/proprietary/bin/qseecomd:system/bin/qseecomd \
     vendor/bq/piccolo/proprietary/bin/qseecom_sample_client:system/bin/qseecom_sample_client \
     vendor/bq/piccolo/proprietary/lib/libdrmdecrypt.so:system/lib/libdrmdecrypt.so \
+    vendor/bq/piccolo/proprietary/vendor/lib/drm/libdrmwvmplugin.so:system/vendor/lib/drm/libdrmwvmplugin.so \
+    vendor/bq/piccolo/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
     vendor/bq/piccolo/proprietary/vendor/lib/libdrmfs.so:system/vendor/lib/libdrmfs.so \
     vendor/bq/piccolo/proprietary/vendor/lib/libdrmtime.so:system/vendor/lib/libdrmtime.so \
     vendor/bq/piccolo/proprietary/vendor/lib/libQSEEComAPI.so:system/vendor/lib/libQSEEComAPI.so \
@@ -126,12 +128,9 @@ PRODUCT_COPY_FILES += \
     vendor/bq/piccolo/proprietary/vendor/lib/libwvdrm_L3.so:system/vendor/lib/libwvdrm_L3.so \
     vendor/bq/piccolo/proprietary/vendor/lib/libwvm.so:system/vendor/lib/libwvm.so \
     vendor/bq/piccolo/proprietary/vendor/lib/libWVStreamControlAPI_L3.so:system/vendor/lib/libWVStreamControlAPI_L3.so \
-    vendor/bq/piccolo/proprietary/vendor/lib/drm/libdrmwvmplugin.so:system/vendor/lib/drm/libdrmwvmplugin.so \
-    vendor/bq/piccolo/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
     vendor/bq/piccolo/proprietary/bin/fmconfig:system/bin/fmconfig \
     vendor/bq/piccolo/proprietary/bin/fm_qsoc_patches:system/bin/fm_qsoc_patches \
     vendor/bq/piccolo/proprietary/bin/location-mq:system/bin/location-mq \
-    vendor/bq/piccolo/proprietary/bin/loc_launcher:system/bin/loc_launcher \
     vendor/bq/piccolo/proprietary/etc/permissions/com.qualcomm.location.xml:system/etc/permissions/com.qualcomm.location.xml \
     vendor/bq/piccolo/proprietary/vendor/lib/hw/flp.default.so:system/vendor/lib/hw/flp.default.so \
     vendor/bq/piccolo/proprietary/vendor/lib/libgeofence.so:system/vendor/lib/libgeofence.so \
@@ -174,7 +173,6 @@ PRODUCT_COPY_FILES += \
     vendor/bq/piccolo/proprietary/etc/firmware/a420_pm4.fw:system/etc/firmware/a420_pm4.fw \
     vendor/bq/piccolo/proprietary/vendor/lib/libDivxDrm.so:system/vendor/lib/libDivxDrm.so \
     vendor/bq/piccolo/proprietary/vendor/lib/libExtendedExtractor.so:system/vendor/lib/libExtendedExtractor.so \
-    vendor/bq/piccolo/proprietary/vendor/lib/libHevcSwDecoder.so:system/vendor/lib/libHevcSwDecoder.so \
     vendor/bq/piccolo/proprietary/vendor/lib/libmmosal.so:system/vendor/lib/libmmosal.so \
     vendor/bq/piccolo/proprietary/vendor/lib/libmmparser.so:system/vendor/lib/libmmparser.so \
     vendor/bq/piccolo/proprietary/vendor/lib/libOmxAacDec.so:system/vendor/lib/libOmxAacDec.so \
@@ -192,6 +190,7 @@ PRODUCT_COPY_FILES += \
     vendor/bq/piccolo/proprietary/vendor/lib/libdsi_netctrl.so:system/vendor/lib/libdsi_netctrl.so \
     vendor/bq/piccolo/proprietary/vendor/lib/libdsutils.so:system/vendor/lib/libdsutils.so \
     vendor/bq/piccolo/proprietary/vendor/lib/libidl.so:system/vendor/lib/libidl.so \
+    vendor/bq/piccolo/proprietary/vendor/lib/libperipheral_client.so:system/vendor/lib/libperipheral_client.so \
     vendor/bq/piccolo/proprietary/vendor/lib/libqcci_legacy.so:system/vendor/lib/libqcci_legacy.so \
     vendor/bq/piccolo/proprietary/vendor/lib/libqdi.so:system/vendor/lib/libqdi.so \
     vendor/bq/piccolo/proprietary/vendor/lib/libqdp.so:system/vendor/lib/libqdp.so \
@@ -234,5 +233,5 @@ PRODUCT_COPY_FILES += \
     vendor/bq/piccolo/proprietary/etc/firmware/widevine.mdt:system/etc/firmware/widevine.mdt \
     vendor/bq/piccolo/proprietary/bin/ptt_socket_app:system/bin/ptt_socket_app \
     vendor/bq/piccolo/proprietary/bin/adjust_settings:system/bin/adjust_settings \
-
 endif
+
