@@ -207,14 +207,11 @@ PRODUCT_COPY_FILES += \
     vendor/bq/piccolo/proprietary/bin/radish:system/bin/radish \
     vendor/bq/piccolo/proprietary/bin/rfs_access:system/bin/rfs_access \
     vendor/bq/piccolo/proprietary/bin/rmt_storage:system/bin/rmt_storage \
-    vendor/bq/piccolo/proprietary/etc/permissions/qcnvitems.xml:system/etc/permissions/qcnvitems.xml \
-    vendor/bq/piccolo/proprietary/etc/permissions/qcrilhook.xml:system/etc/permissions/qcrilhook.xml \
     vendor/bq/piccolo/proprietary/lib/librmnetctl.so:system/lib/librmnetctl.so \
     vendor/bq/piccolo/proprietary/vendor/lib/libcneapiclient.so:system/vendor/lib/libcneapiclient.so \
     vendor/bq/piccolo/proprietary/vendor/lib/libconfigdb.so:system/vendor/lib/libconfigdb.so \
     vendor/bq/piccolo/proprietary/vendor/lib/libmdmdetect.so:system/vendor/lib/libmdmdetect.so \
     vendor/bq/piccolo/proprietary/vendor/lib/libnetmgr.so:system/vendor/lib/libnetmgr.so \
-    vendor/bq/piccolo/proprietary/vendor/lib/libperipheral_client.so:system/vendor/lib/libperipheral_client.so \
     vendor/bq/piccolo/proprietary/vendor/lib/libril-qc-qmi-1.so:system/vendor/lib/libril-qc-qmi-1.so \
     vendor/bq/piccolo/proprietary/vendor/lib/libril-qcril-hook-oem.so:system/vendor/lib/libril-qcril-hook-oem.so \
     vendor/bq/piccolo/proprietary/vendor/lib/libsystem_health_mon.so:system/vendor/lib/libsystem_health_mon.so \
@@ -233,5 +230,5 @@ PRODUCT_COPY_FILES += \
     vendor/bq/piccolo/proprietary/etc/firmware/widevine.mdt:system/etc/firmware/widevine.mdt \
     vendor/bq/piccolo/proprietary/bin/ptt_socket_app:system/bin/ptt_socket_app \
     vendor/bq/piccolo/proprietary/bin/adjust_settings:system/bin/adjust_settings \
-endif
 
+endif
