@@ -171,8 +171,10 @@ PRODUCT_COPY_FILES += \
     vendor/bq/piccolo/proprietary/etc/firmware/a330_pm4.fw:system/etc/firmware/a330_pm4.fw \
     vendor/bq/piccolo/proprietary/etc/firmware/a420_pfp.fw:system/etc/firmware/a420_pfp.fw \
     vendor/bq/piccolo/proprietary/etc/firmware/a420_pm4.fw:system/etc/firmware/a420_pm4.fw \
+    vendor/bq/piccolo/proprietary/lib/libOmxVdecHevc.so:system/lib/libOmxVdecHevc.so \
     vendor/bq/piccolo/proprietary/vendor/lib/libDivxDrm.so:system/vendor/lib/libDivxDrm.so \
     vendor/bq/piccolo/proprietary/vendor/lib/libExtendedExtractor.so:system/vendor/lib/libExtendedExtractor.so \
+    vendor/bq/piccolo/proprietary/vendor/lib/libHevcSwDecoder.so:system/vendor/lib/libHevcSwDecoder.so \
     vendor/bq/piccolo/proprietary/vendor/lib/libmmosal.so:system/vendor/lib/libmmosal.so \
     vendor/bq/piccolo/proprietary/vendor/lib/libmmparser.so:system/vendor/lib/libmmparser.so \
     vendor/bq/piccolo/proprietary/vendor/lib/libOmxAacDec.so:system/vendor/lib/libOmxAacDec.so \

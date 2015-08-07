@@ -19,9 +19,6 @@ PRODUCT_PACKAGES += \
     com.qualcomm.location
 
 PRODUCT_PACKAGES += \
-    TimeService
-
-PRODUCT_PACKAGES += \
     libmm-abl
 
 PRODUCT_PACKAGES += \
