@@ -19,6 +19,11 @@ PRODUCT_PACKAGES += \
     com.qualcomm.location
 
 PRODUCT_PACKAGES += \
+    qcrilmsgtunnel \
+    shutdownlistener \
+    TimeService
+
+PRODUCT_PACKAGES += \
     libmm-abl
 
 PRODUCT_PACKAGES += \

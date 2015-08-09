@@ -27,13 +27,8 @@ PRODUCT_COPY_FILES += \
     vendor/bq/piccolo/proprietary/bin/adsprpcd:system/bin/adsprpcd \
     vendor/bq/piccolo/proprietary/vendor/lib/libadsprpc.so:system/vendor/lib/libadsprpc.so \
     vendor/bq/piccolo/proprietary/vendor/lib/libfastcvopt.so:system/vendor/lib/libfastcvopt.so \
-    vendor/bq/piccolo/proprietary/etc/acdbdata/QRD/QRD_Bluetooth_cal.acdb:system/etc/acdbdata/QRD/QRD_Bluetooth_cal.acdb \
-    vendor/bq/piccolo/proprietary/etc/acdbdata/QRD/QRD_General_cal.acdb:system/etc/acdbdata/QRD/QRD_General_cal.acdb \
-    vendor/bq/piccolo/proprietary/etc/acdbdata/QRD/QRD_Global_cal.acdb:system/etc/acdbdata/QRD/QRD_Global_cal.acdb \
-    vendor/bq/piccolo/proprietary/etc/acdbdata/QRD/QRD_Handset_cal.acdb:system/etc/acdbdata/QRD/QRD_Handset_cal.acdb \
-    vendor/bq/piccolo/proprietary/etc/acdbdata/QRD/QRD_Hdmi_cal.acdb:system/etc/acdbdata/QRD/QRD_Hdmi_cal.acdb \
-    vendor/bq/piccolo/proprietary/etc/acdbdata/QRD/QRD_Headset_cal.acdb:system/etc/acdbdata/QRD/QRD_Headset_cal.acdb \
-    vendor/bq/piccolo/proprietary/etc/acdbdata/QRD/QRD_Speaker_cal.acdb:system/etc/acdbdata/QRD/QRD_Speaker_cal.acdb \
+    vendor/bq/piccolo/proprietary/lib/hw/audio.primary.msm8916.so:system/lib/hw/audio.primary.msm8916.so \
+    vendor/bq/piccolo/proprietary/vendor/lib/hw/sound_trigger.primary.msm8916.so:system/vendor/lib/hw/sound_trigger.primary.msm8916.so \
     vendor/bq/piccolo/proprietary/vendor/lib/libacdb-fts.so:system/vendor/lib/libacdb-fts.so \
     vendor/bq/piccolo/proprietary/vendor/lib/libacdbloader.so:system/vendor/lib/libacdbloader.so \
     vendor/bq/piccolo/proprietary/vendor/lib/libacdbrtac.so:system/vendor/lib/libacdbrtac.so \
@@ -54,8 +49,8 @@ PRODUCT_COPY_FILES += \
     vendor/bq/piccolo/proprietary/vendor/lib/libmmcamera2_frame_algorithm.so:system/vendor/lib/libmmcamera2_frame_algorithm.so \
     vendor/bq/piccolo/proprietary/vendor/lib/libmmcamera2_iface_modules.so:system/vendor/lib/libmmcamera2_iface_modules.so \
     vendor/bq/piccolo/proprietary/vendor/lib/libmmcamera2_imglib_modules.so:system/vendor/lib/libmmcamera2_imglib_modules.so \
-    vendor/bq/piccolo/proprietary/vendor/lib/libmmcamera2_is.so:system/vendor/lib/libmmcamera2_is.so \
     vendor/bq/piccolo/proprietary/vendor/lib/libmmcamera2_isp_modules.so:system/vendor/lib/libmmcamera2_isp_modules.so \
+    vendor/bq/piccolo/proprietary/vendor/lib/libmmcamera2_is.so:system/vendor/lib/libmmcamera2_is.so \
     vendor/bq/piccolo/proprietary/vendor/lib/libmmcamera2_pproc_modules.so:system/vendor/lib/libmmcamera2_pproc_modules.so \
     vendor/bq/piccolo/proprietary/vendor/lib/libmmcamera2_sensor_modules.so:system/vendor/lib/libmmcamera2_sensor_modules.so \
     vendor/bq/piccolo/proprietary/vendor/lib/libmmcamera2_stats_algorithm.so:system/vendor/lib/libmmcamera2_stats_algorithm.so \
@@ -65,14 +60,70 @@ PRODUCT_COPY_FILES += \
     vendor/bq/piccolo/proprietary/vendor/lib/libmmcamera_faceproc.so:system/vendor/lib/libmmcamera_faceproc.so \
     vendor/bq/piccolo/proprietary/vendor/lib/libmmcamera_hdr_gb_lib.so:system/vendor/lib/libmmcamera_hdr_gb_lib.so \
     vendor/bq/piccolo/proprietary/vendor/lib/libmmcamera_hdr_lib.so:system/vendor/lib/libmmcamera_hdr_lib.so \
-    vendor/bq/piccolo/proprietary/vendor/lib/libmmcamera_hi545_8916.so:system/vendor/lib/libmmcamera_hi545_8916.so \
+    vendor/bq/piccolo/proprietary/vendor/lib/libmmcamera_hi256.so:system/vendor/lib/libmmcamera_hi256.so \
     vendor/bq/piccolo/proprietary/vendor/lib/libmmcamera_hi545_8916_cm9887qr.so:system/vendor/lib/libmmcamera_hi545_8916_cm9887qr.so \
+    vendor/bq/piccolo/proprietary/vendor/lib/libmmcamera_hi545_8916.so:system/vendor/lib/libmmcamera_hi545_8916.so \
     vendor/bq/piccolo/proprietary/vendor/lib/libmmcamera_hynix_hi545_eeprom.so:system/vendor/lib/libmmcamera_hynix_hi545_eeprom.so \
     vendor/bq/piccolo/proprietary/vendor/lib/libmmcamera_imglib.so:system/vendor/lib/libmmcamera_imglib.so \
+    vendor/bq/piccolo/proprietary/vendor/lib/libmmcamera_imx132.so:system/vendor/lib/libmmcamera_imx132.so \
+    vendor/bq/piccolo/proprietary/vendor/lib/libmmcamera_imx134.so:system/vendor/lib/libmmcamera_imx134.so \
+    vendor/bq/piccolo/proprietary/vendor/lib/libmmcamera_imx135.so:system/vendor/lib/libmmcamera_imx135.so \
+    vendor/bq/piccolo/proprietary/vendor/lib/libmmcamera_imx179_olq8a23.so:system/vendor/lib/libmmcamera_imx179_olq8a23.so \
     vendor/bq/piccolo/proprietary/vendor/lib/libmmcamera_imx214_8916_cm9886qr.so:system/vendor/lib/libmmcamera_imx214_8916_cm9886qr.so \
+    vendor/bq/piccolo/proprietary/vendor/lib/libmmcamera_imx214_8916.so:system/vendor/lib/libmmcamera_imx214_8916.so \
+    vendor/bq/piccolo/proprietary/vendor/lib/libmmcamera_imx214_8916_truly.so:system/vendor/lib/libmmcamera_imx214_8916_truly.so \
+    vendor/bq/piccolo/proprietary/vendor/lib/libmmcamera_imx214_f13n05e_eeprom.so:system/vendor/lib/libmmcamera_imx214_f13n05e_eeprom.so \
+    vendor/bq/piccolo/proprietary/vendor/lib/libmmcamera_imx214_f13n05e.so:system/vendor/lib/libmmcamera_imx214_f13n05e.so \
+    vendor/bq/piccolo/proprietary/vendor/lib/libmmcamera_imx214_olqba15_eeprom.so:system/vendor/lib/libmmcamera_imx214_olqba15_eeprom.so \
+    vendor/bq/piccolo/proprietary/vendor/lib/libmmcamera_imx214_olqba15.so:system/vendor/lib/libmmcamera_imx214_olqba15.so \
+    vendor/bq/piccolo/proprietary/vendor/lib/libmmcamera_imx214.so:system/vendor/lib/libmmcamera_imx214.so \
+    vendor/bq/piccolo/proprietary/vendor/lib/libmmcamera_mt9m114.so:system/vendor/lib/libmmcamera_mt9m114.so \
+    vendor/bq/piccolo/proprietary/vendor/lib/libmmcamera_ofilm_oty5f03_eeprom.so:system/vendor/lib/libmmcamera_ofilm_oty5f03_eeprom.so \
+    vendor/bq/piccolo/proprietary/vendor/lib/libmmcamera_ov13850.so:system/vendor/lib/libmmcamera_ov13850.so \
+    vendor/bq/piccolo/proprietary/vendor/lib/libmmcamera_ov16825.so:system/vendor/lib/libmmcamera_ov16825.so \
+    vendor/bq/piccolo/proprietary/vendor/lib/libmmcamera_ov2680_5987fhq.so:system/vendor/lib/libmmcamera_ov2680_5987fhq.so \
+    vendor/bq/piccolo/proprietary/vendor/lib/libmmcamera_ov2680_pc0fb0003b.so:system/vendor/lib/libmmcamera_ov2680_pc0fb0003b.so \
+    vendor/bq/piccolo/proprietary/vendor/lib/libmmcamera_ov2680.so:system/vendor/lib/libmmcamera_ov2680.so \
+    vendor/bq/piccolo/proprietary/vendor/lib/libmmcamera_ov2720.so:system/vendor/lib/libmmcamera_ov2720.so \
+    vendor/bq/piccolo/proprietary/vendor/lib/libmmcamera_ov5645.so:system/vendor/lib/libmmcamera_ov5645.so \
+    vendor/bq/piccolo/proprietary/vendor/lib/libmmcamera_ov5648_oty5f03.so:system/vendor/lib/libmmcamera_ov5648_oty5f03.so \
+    vendor/bq/piccolo/proprietary/vendor/lib/libmmcamera_ov5648_p5v18g.so:system/vendor/lib/libmmcamera_ov5648_p5v18g.so \
+    vendor/bq/piccolo/proprietary/vendor/lib/libmmcamera_ov5648_q5v22e.so:system/vendor/lib/libmmcamera_ov5648_q5v22e.so \
+    vendor/bq/piccolo/proprietary/vendor/lib/libmmcamera_ov5670_q5v41b.so:system/vendor/lib/libmmcamera_ov5670_q5v41b.so \
+    vendor/bq/piccolo/proprietary/vendor/lib/libmmcamera_ov7695.so:system/vendor/lib/libmmcamera_ov7695.so \
+    vendor/bq/piccolo/proprietary/vendor/lib/libmmcamera_ov8825.so:system/vendor/lib/libmmcamera_ov8825.so \
+    vendor/bq/piccolo/proprietary/vendor/lib/libmmcamera_ov8858_q8v19w.so:system/vendor/lib/libmmcamera_ov8858_q8v19w.so \
+    vendor/bq/piccolo/proprietary/vendor/lib/libmmcamera_ov8858.so:system/vendor/lib/libmmcamera_ov8858.so \
+    vendor/bq/piccolo/proprietary/vendor/lib/libmmcamera_ov8865_q8v18a.so:system/vendor/lib/libmmcamera_ov8865_q8v18a.so \
+    vendor/bq/piccolo/proprietary/vendor/lib/libmmcamera_ov9724.so:system/vendor/lib/libmmcamera_ov9724.so \
+    vendor/bq/piccolo/proprietary/vendor/lib/libmmcamera_s5k3l1yx.so:system/vendor/lib/libmmcamera_s5k3l1yx.so \
+    vendor/bq/piccolo/proprietary/vendor/lib/libmmcamera_s5k3m2_cma164qr_eeprom.so:system/vendor/lib/libmmcamera_s5k3m2_cma164qr_eeprom.so \
+    vendor/bq/piccolo/proprietary/vendor/lib/libmmcamera_s5k3m2_cma164qr.so:system/vendor/lib/libmmcamera_s5k3m2_cma164qr.so \
+    vendor/bq/piccolo/proprietary/vendor/lib/libmmcamera_S5K4E1_13P1BA.so:system/vendor/lib/libmmcamera_S5K4E1_13P1BA.so \
+    vendor/bq/piccolo/proprietary/vendor/lib/libmmcamera_s5k5e2_cma189_eeprom.so:system/vendor/lib/libmmcamera_s5k5e2_cma189_eeprom.so \
+    vendor/bq/piccolo/proprietary/vendor/lib/libmmcamera_s5k5e2_cma189.so:system/vendor/lib/libmmcamera_s5k5e2_cma189.so \
+    vendor/bq/piccolo/proprietary/vendor/lib/libmmcamera_s5k5e2_olq5f19.so:system/vendor/lib/libmmcamera_s5k5e2_olq5f19.so \
+    vendor/bq/piccolo/proprietary/vendor/lib/libmmcamera_s5k5e2_olq5f20_eeprom.so:system/vendor/lib/libmmcamera_s5k5e2_olq5f20_eeprom.so \
+    vendor/bq/piccolo/proprietary/vendor/lib/libmmcamera_s5k5e2_olq5f20.so:system/vendor/lib/libmmcamera_s5k5e2_olq5f20.so \
+    vendor/bq/piccolo/proprietary/vendor/lib/libmmcamera_SKUAA_ST_gc0339.so:system/vendor/lib/libmmcamera_SKUAA_ST_gc0339.so \
+    vendor/bq/piccolo/proprietary/vendor/lib/libmmcamera_skuab_shinetech_gc0339.so:system/vendor/lib/libmmcamera_skuab_shinetech_gc0339.so \
+    vendor/bq/piccolo/proprietary/vendor/lib/libmmcamera_SKUAB_ST_s5k4e1.so:system/vendor/lib/libmmcamera_SKUAB_ST_s5k4e1.so \
+    vendor/bq/piccolo/proprietary/vendor/lib/libmmcamera_skuf_ov12830_p12v01c.so:system/vendor/lib/libmmcamera_skuf_ov12830_p12v01c.so \
+    vendor/bq/piccolo/proprietary/vendor/lib/libmmcamera_skuf_ov5648_p5v23c.so:system/vendor/lib/libmmcamera_skuf_ov5648_p5v23c.so \
+    vendor/bq/piccolo/proprietary/vendor/lib/libmmcamera_sonyimx135_eeprom.so:system/vendor/lib/libmmcamera_sonyimx135_eeprom.so \
+    vendor/bq/piccolo/proprietary/vendor/lib/libmmcamera_sp1628.so:system/vendor/lib/libmmcamera_sp1628.so \
+    vendor/bq/piccolo/proprietary/vendor/lib/libmmcamera_sunny_p12v01m_eeprom.so:system/vendor/lib/libmmcamera_sunny_p12v01m_eeprom.so \
+    vendor/bq/piccolo/proprietary/vendor/lib/libmmcamera_sunny_p5v23c_eeprom.so:system/vendor/lib/libmmcamera_sunny_p5v23c_eeprom.so \
+    vendor/bq/piccolo/proprietary/vendor/lib/libmmcamera_sunny_q13v04b_eeprom.so:system/vendor/lib/libmmcamera_sunny_q13v04b_eeprom.so \
+    vendor/bq/piccolo/proprietary/vendor/lib/libmmcamera_sunny_q5v22e_eeprom.so:system/vendor/lib/libmmcamera_sunny_q5v22e_eeprom.so \
+    vendor/bq/piccolo/proprietary/vendor/lib/libmmcamera_sunny_q5v41b_eeprom.so:system/vendor/lib/libmmcamera_sunny_q5v41b_eeprom.so \
+    vendor/bq/piccolo/proprietary/vendor/lib/libmmcamera_sunny_q8v18a_eeprom.so:system/vendor/lib/libmmcamera_sunny_q8v18a_eeprom.so \
     vendor/bq/piccolo/proprietary/vendor/lib/libmmcamera_tintless_algo.so:system/vendor/lib/libmmcamera_tintless_algo.so \
     vendor/bq/piccolo/proprietary/vendor/lib/libmmcamera_tintless_bg_pca_algo.so:system/vendor/lib/libmmcamera_tintless_bg_pca_algo.so \
+    vendor/bq/piccolo/proprietary/vendor/lib/libmmcamera_truly_cm7700_eeprom.so:system/vendor/lib/libmmcamera_truly_cm7700_eeprom.so \
     vendor/bq/piccolo/proprietary/vendor/lib/libmmcamera_truly_cm9886qr_eeprom.so:system/vendor/lib/libmmcamera_truly_cm9886qr_eeprom.so \
+    vendor/bq/piccolo/proprietary/vendor/lib/libmmcamera_truly_cm9887qr_eeprom.so:system/vendor/lib/libmmcamera_truly_cm9887qr_eeprom.so \
+    vendor/bq/piccolo/proprietary/vendor/lib/libmmcamera_truly_cmA016qr_eeprom.so:system/vendor/lib/libmmcamera_truly_cmA016qr_eeprom.so \
     vendor/bq/piccolo/proprietary/vendor/lib/libmmcamera_tuning.so:system/vendor/lib/libmmcamera_tuning.so \
     vendor/bq/piccolo/proprietary/vendor/lib/libmmcamera_wavelet_lib.so:system/vendor/lib/libmmcamera_wavelet_lib.so \
     vendor/bq/piccolo/proprietary/vendor/lib/libmmipl.so:system/vendor/lib/libmmipl.so \
@@ -80,27 +131,97 @@ PRODUCT_COPY_FILES += \
     vendor/bq/piccolo/proprietary/vendor/lib/libmmqjpeg_codec.so:system/vendor/lib/libmmqjpeg_codec.so \
     vendor/bq/piccolo/proprietary/vendor/lib/liboemcamera.so:system/vendor/lib/liboemcamera.so \
     vendor/bq/piccolo/proprietary/vendor/lib/libqomx_jpegenc.so:system/vendor/lib/libqomx_jpegenc.so \
-    vendor/bq/piccolo/proprietary/vendor/lib/libactuator_AK7345.so:system/vendor/lib/libactuator_AK7345.so \
+    vendor/bq/piccolo/proprietary/vendor/lib/libactuator_a3907_camcorder.so:system/vendor/lib/libactuator_a3907_camcorder.so \
+    vendor/bq/piccolo/proprietary/vendor/lib/libactuator_a3907_camera.so:system/vendor/lib/libactuator_a3907_camera.so \
+    vendor/bq/piccolo/proprietary/vendor/lib/libactuator_a3907.so:system/vendor/lib/libactuator_a3907.so \
     vendor/bq/piccolo/proprietary/vendor/lib/libactuator_AK7345_camcorder.so:system/vendor/lib/libactuator_AK7345_camcorder.so \
     vendor/bq/piccolo/proprietary/vendor/lib/libactuator_AK7345_camera.so:system/vendor/lib/libactuator_AK7345_camera.so \
+    vendor/bq/piccolo/proprietary/vendor/lib/libactuator_AK7345.so:system/vendor/lib/libactuator_AK7345.so \
+    vendor/bq/piccolo/proprietary/vendor/lib/libactuator_bu64241_camcorder.so:system/vendor/lib/libactuator_bu64241_camcorder.so \
+    vendor/bq/piccolo/proprietary/vendor/lib/libactuator_bu64241_camera.so:system/vendor/lib/libactuator_bu64241_camera.so \
+    vendor/bq/piccolo/proprietary/vendor/lib/libactuator_bu64241.so:system/vendor/lib/libactuator_bu64241.so \
+    vendor/bq/piccolo/proprietary/vendor/lib/libactuator_dw9714_13p1ba_camcorder.so:system/vendor/lib/libactuator_dw9714_13p1ba_camcorder.so \
+    vendor/bq/piccolo/proprietary/vendor/lib/libactuator_dw9714_13p1ba_camera.so:system/vendor/lib/libactuator_dw9714_13p1ba_camera.so \
+    vendor/bq/piccolo/proprietary/vendor/lib/libactuator_dw9714_13p1ba.so:system/vendor/lib/libactuator_dw9714_13p1ba.so \
+    vendor/bq/piccolo/proprietary/vendor/lib/libactuator_dw9714_camcorder.so:system/vendor/lib/libactuator_dw9714_camcorder.so \
+    vendor/bq/piccolo/proprietary/vendor/lib/libactuator_dw9714_camera.so:system/vendor/lib/libactuator_dw9714_camera.so \
+    vendor/bq/piccolo/proprietary/vendor/lib/libactuator_dw9714_cma164qr_camcorder.so:system/vendor/lib/libactuator_dw9714_cma164qr_camcorder.so \
+    vendor/bq/piccolo/proprietary/vendor/lib/libactuator_dw9714_cma164qr_camera.so:system/vendor/lib/libactuator_dw9714_cma164qr_camera.so \
+    vendor/bq/piccolo/proprietary/vendor/lib/libactuator_dw9714_cma164qr.so:system/vendor/lib/libactuator_dw9714_cma164qr.so \
+    vendor/bq/piccolo/proprietary/vendor/lib/libactuator_dw9714_q13n04a_camcorder.so:system/vendor/lib/libactuator_dw9714_q13n04a_camcorder.so \
+    vendor/bq/piccolo/proprietary/vendor/lib/libactuator_dw9714_q13n04a_camera.so:system/vendor/lib/libactuator_dw9714_q13n04a_camera.so \
+    vendor/bq/piccolo/proprietary/vendor/lib/libactuator_dw9714_q13n04a.so:system/vendor/lib/libactuator_dw9714_q13n04a.so \
+    vendor/bq/piccolo/proprietary/vendor/lib/libactuator_dw9714_q13v04b_camcorder.so:system/vendor/lib/libactuator_dw9714_q13v04b_camcorder.so \
+    vendor/bq/piccolo/proprietary/vendor/lib/libactuator_dw9714_q13v04b_camera.so:system/vendor/lib/libactuator_dw9714_q13v04b_camera.so \
+    vendor/bq/piccolo/proprietary/vendor/lib/libactuator_dw9714_q13v04b.so:system/vendor/lib/libactuator_dw9714_q13v04b.so \
+    vendor/bq/piccolo/proprietary/vendor/lib/libactuator_dw9714.so:system/vendor/lib/libactuator_dw9714.so \
+    vendor/bq/piccolo/proprietary/vendor/lib/libactuator_dw9716_camcorder.so:system/vendor/lib/libactuator_dw9716_camcorder.so \
+    vendor/bq/piccolo/proprietary/vendor/lib/libactuator_dw9716_camera.so:system/vendor/lib/libactuator_dw9716_camera.so \
+    vendor/bq/piccolo/proprietary/vendor/lib/libactuator_dw9716.so:system/vendor/lib/libactuator_dw9716.so \
+    vendor/bq/piccolo/proprietary/vendor/lib/libactuator_dw9718s_camcorder.so:system/vendor/lib/libactuator_dw9718s_camcorder.so \
+    vendor/bq/piccolo/proprietary/vendor/lib/libactuator_dw9718s_camera.so:system/vendor/lib/libactuator_dw9718s_camera.so \
+    vendor/bq/piccolo/proprietary/vendor/lib/libactuator_dw9718s.so:system/vendor/lib/libactuator_dw9718s.so \
+    vendor/bq/piccolo/proprietary/vendor/lib/libactuator_dw9761b_f13n05e_camcorder.so:system/vendor/lib/libactuator_dw9761b_f13n05e_camcorder.so \
+    vendor/bq/piccolo/proprietary/vendor/lib/libactuator_dw9761b_f13n05e_camera.so:system/vendor/lib/libactuator_dw9761b_f13n05e_camera.so \
+    vendor/bq/piccolo/proprietary/vendor/lib/libactuator_dw9761b_f13n05e.so:system/vendor/lib/libactuator_dw9761b_f13n05e.so \
+    vendor/bq/piccolo/proprietary/vendor/lib/libactuator_dw9761_ofilm_camcorder.so:system/vendor/lib/libactuator_dw9761_ofilm_camcorder.so \
+    vendor/bq/piccolo/proprietary/vendor/lib/libactuator_dw9761_ofilm_camera.so:system/vendor/lib/libactuator_dw9761_ofilm_camera.so \
+    vendor/bq/piccolo/proprietary/vendor/lib/libactuator_dw9761_ofilm.so:system/vendor/lib/libactuator_dw9761_ofilm.so \
+    vendor/bq/piccolo/proprietary/vendor/lib/libactuator_iu074_camcorder.so:system/vendor/lib/libactuator_iu074_camcorder.so \
+    vendor/bq/piccolo/proprietary/vendor/lib/libactuator_iu074_camera.so:system/vendor/lib/libactuator_iu074_camera.so \
+    vendor/bq/piccolo/proprietary/vendor/lib/libactuator_iu074.so:system/vendor/lib/libactuator_iu074.so \
+    vendor/bq/piccolo/proprietary/vendor/lib/libactuator_ov12830_camcorder.so:system/vendor/lib/libactuator_ov12830_camcorder.so \
+    vendor/bq/piccolo/proprietary/vendor/lib/libactuator_ov12830_camera.so:system/vendor/lib/libactuator_ov12830_camera.so \
+    vendor/bq/piccolo/proprietary/vendor/lib/libactuator_ov12830.so:system/vendor/lib/libactuator_ov12830.so \
+    vendor/bq/piccolo/proprietary/vendor/lib/libactuator_ov8825_camcorder.so:system/vendor/lib/libactuator_ov8825_camcorder.so \
+    vendor/bq/piccolo/proprietary/vendor/lib/libactuator_ov8825_camera.so:system/vendor/lib/libactuator_ov8825_camera.so \
+    vendor/bq/piccolo/proprietary/vendor/lib/libactuator_ov8825.so:system/vendor/lib/libactuator_ov8825.so \
+    vendor/bq/piccolo/proprietary/vendor/lib/libactuator_rohm_bu64243gwz_camcorder.so:system/vendor/lib/libactuator_rohm_bu64243gwz_camcorder.so \
+    vendor/bq/piccolo/proprietary/vendor/lib/libactuator_rohm_bu64243gwz_camera.so:system/vendor/lib/libactuator_rohm_bu64243gwz_camera.so \
+    vendor/bq/piccolo/proprietary/vendor/lib/libactuator_rohm_bu64243gwz.so:system/vendor/lib/libactuator_rohm_bu64243gwz.so \
     vendor/bq/piccolo/proprietary/vendor/lib/libchromatix_hi545_8916_cm9887qr_common.so:system/vendor/lib/libchromatix_hi545_8916_cm9887qr_common.so \
     vendor/bq/piccolo/proprietary/vendor/lib/libchromatix_hi545_8916_cm9887qr_default_video.so:system/vendor/lib/libchromatix_hi545_8916_cm9887qr_default_video.so \
+    vendor/bq/piccolo/proprietary/vendor/lib/libchromatix_hi545_8916_cm9887qr_hfr_120fps.so:system/vendor/lib/libchromatix_hi545_8916_cm9887qr_hfr_120fps.so \
     vendor/bq/piccolo/proprietary/vendor/lib/libchromatix_hi545_8916_cm9887qr_hfr_60fps.so:system/vendor/lib/libchromatix_hi545_8916_cm9887qr_hfr_60fps.so \
     vendor/bq/piccolo/proprietary/vendor/lib/libchromatix_hi545_8916_cm9887qr_hfr_90fps.so:system/vendor/lib/libchromatix_hi545_8916_cm9887qr_hfr_90fps.so \
-    vendor/bq/piccolo/proprietary/vendor/lib/libchromatix_hi545_8916_cm9887qr_hfr_120fps.so:system/vendor/lib/libchromatix_hi545_8916_cm9887qr_hfr_120fps.so \
     vendor/bq/piccolo/proprietary/vendor/lib/libchromatix_hi545_8916_cm9887qr_liveshot.so:system/vendor/lib/libchromatix_hi545_8916_cm9887qr_liveshot.so \
     vendor/bq/piccolo/proprietary/vendor/lib/libchromatix_hi545_8916_cm9887qr_preview.so:system/vendor/lib/libchromatix_hi545_8916_cm9887qr_preview.so \
     vendor/bq/piccolo/proprietary/vendor/lib/libchromatix_hi545_8916_cm9887qr_snapshot.so:system/vendor/lib/libchromatix_hi545_8916_cm9887qr_snapshot.so \
     vendor/bq/piccolo/proprietary/vendor/lib/libchromatix_hi545_8916_cm9887qr_video_hd.so:system/vendor/lib/libchromatix_hi545_8916_cm9887qr_video_hd.so \
     vendor/bq/piccolo/proprietary/vendor/lib/libchromatix_hi545_8916_common.so:system/vendor/lib/libchromatix_hi545_8916_common.so \
     vendor/bq/piccolo/proprietary/vendor/lib/libchromatix_hi545_8916_default_video.so:system/vendor/lib/libchromatix_hi545_8916_default_video.so \
+    vendor/bq/piccolo/proprietary/vendor/lib/libchromatix_hi545_8916_hfr_120fps.so:system/vendor/lib/libchromatix_hi545_8916_hfr_120fps.so \
     vendor/bq/piccolo/proprietary/vendor/lib/libchromatix_hi545_8916_hfr_60fps.so:system/vendor/lib/libchromatix_hi545_8916_hfr_60fps.so \
     vendor/bq/piccolo/proprietary/vendor/lib/libchromatix_hi545_8916_hfr_90fps.so:system/vendor/lib/libchromatix_hi545_8916_hfr_90fps.so \
-    vendor/bq/piccolo/proprietary/vendor/lib/libchromatix_hi545_8916_hfr_120fps.so:system/vendor/lib/libchromatix_hi545_8916_hfr_120fps.so \
     vendor/bq/piccolo/proprietary/vendor/lib/libchromatix_hi545_8916_liveshot.so:system/vendor/lib/libchromatix_hi545_8916_liveshot.so \
     vendor/bq/piccolo/proprietary/vendor/lib/libchromatix_hi545_8916_preview.so:system/vendor/lib/libchromatix_hi545_8916_preview.so \
     vendor/bq/piccolo/proprietary/vendor/lib/libchromatix_hi545_8916_snapshot.so:system/vendor/lib/libchromatix_hi545_8916_snapshot.so \
     vendor/bq/piccolo/proprietary/vendor/lib/libchromatix_hi545_8916_video_hd.so:system/vendor/lib/libchromatix_hi545_8916_video_hd.so \
+    vendor/bq/piccolo/proprietary/vendor/lib/libchromatix_imx132_common.so:system/vendor/lib/libchromatix_imx132_common.so \
+    vendor/bq/piccolo/proprietary/vendor/lib/libchromatix_imx132_default_video.so:system/vendor/lib/libchromatix_imx132_default_video.so \
+    vendor/bq/piccolo/proprietary/vendor/lib/libchromatix_imx132_liveshot.so:system/vendor/lib/libchromatix_imx132_liveshot.so \
+    vendor/bq/piccolo/proprietary/vendor/lib/libchromatix_imx132_preview.so:system/vendor/lib/libchromatix_imx132_preview.so \
+    vendor/bq/piccolo/proprietary/vendor/lib/libchromatix_imx132_snapshot.so:system/vendor/lib/libchromatix_imx132_snapshot.so \
+    vendor/bq/piccolo/proprietary/vendor/lib/libchromatix_imx134_common.so:system/vendor/lib/libchromatix_imx134_common.so \
+    vendor/bq/piccolo/proprietary/vendor/lib/libchromatix_imx134_default_video.so:system/vendor/lib/libchromatix_imx134_default_video.so \
+    vendor/bq/piccolo/proprietary/vendor/lib/libchromatix_imx134_hfr_120.so:system/vendor/lib/libchromatix_imx134_hfr_120.so \
+    vendor/bq/piccolo/proprietary/vendor/lib/libchromatix_imx134_hfr_60.so:system/vendor/lib/libchromatix_imx134_hfr_60.so \
+    vendor/bq/piccolo/proprietary/vendor/lib/libchromatix_imx134_preview.so:system/vendor/lib/libchromatix_imx134_preview.so \
+    vendor/bq/piccolo/proprietary/vendor/lib/libchromatix_imx134_snapshot.so:system/vendor/lib/libchromatix_imx134_snapshot.so \
+    vendor/bq/piccolo/proprietary/vendor/lib/libchromatix_imx135_common.so:system/vendor/lib/libchromatix_imx135_common.so \
+    vendor/bq/piccolo/proprietary/vendor/lib/libchromatix_imx135_default_video.so:system/vendor/lib/libchromatix_imx135_default_video.so \
+    vendor/bq/piccolo/proprietary/vendor/lib/libchromatix_imx135_hfr_120.so:system/vendor/lib/libchromatix_imx135_hfr_120.so \
+    vendor/bq/piccolo/proprietary/vendor/lib/libchromatix_imx135_hfr_60.so:system/vendor/lib/libchromatix_imx135_hfr_60.so \
+    vendor/bq/piccolo/proprietary/vendor/lib/libchromatix_imx135_hfr_90.so:system/vendor/lib/libchromatix_imx135_hfr_90.so \
+    vendor/bq/piccolo/proprietary/vendor/lib/libchromatix_imx135_preview.so:system/vendor/lib/libchromatix_imx135_preview.so \
+    vendor/bq/piccolo/proprietary/vendor/lib/libchromatix_imx135_snapshot.so:system/vendor/lib/libchromatix_imx135_snapshot.so \
+    vendor/bq/piccolo/proprietary/vendor/lib/libchromatix_imx135_video_hd.so:system/vendor/lib/libchromatix_imx135_video_hd.so \
+    vendor/bq/piccolo/proprietary/vendor/lib/libchromatix_imx179_olq8a23_common.so:system/vendor/lib/libchromatix_imx179_olq8a23_common.so \
+    vendor/bq/piccolo/proprietary/vendor/lib/libchromatix_imx179_olq8a23_default_video.so:system/vendor/lib/libchromatix_imx179_olq8a23_default_video.so \
+    vendor/bq/piccolo/proprietary/vendor/lib/libchromatix_imx179_olq8a23_hfr_120.so:system/vendor/lib/libchromatix_imx179_olq8a23_hfr_120.so \
+    vendor/bq/piccolo/proprietary/vendor/lib/libchromatix_imx179_olq8a23_preview.so:system/vendor/lib/libchromatix_imx179_olq8a23_preview.so \
+    vendor/bq/piccolo/proprietary/vendor/lib/libchromatix_imx179_olq8a23_snapshot.so:system/vendor/lib/libchromatix_imx179_olq8a23_snapshot.so \
+    vendor/bq/piccolo/proprietary/vendor/lib/libchromatix_imx179_olq8a23_zsl.so:system/vendor/lib/libchromatix_imx179_olq8a23_zsl.so \
     vendor/bq/piccolo/proprietary/vendor/lib/libchromatix_imx214_8916_cm9886qr_common.so:system/vendor/lib/libchromatix_imx214_8916_cm9886qr_common.so \
     vendor/bq/piccolo/proprietary/vendor/lib/libchromatix_imx214_8916_cm9886qr_default_video.so:system/vendor/lib/libchromatix_imx214_8916_cm9886qr_default_video.so \
     vendor/bq/piccolo/proprietary/vendor/lib/libchromatix_imx214_8916_cm9886qr_hfr_60fps.so:system/vendor/lib/libchromatix_imx214_8916_cm9886qr_hfr_60fps.so \
@@ -109,6 +230,234 @@ PRODUCT_COPY_FILES += \
     vendor/bq/piccolo/proprietary/vendor/lib/libchromatix_imx214_8916_cm9886qr_preview.so:system/vendor/lib/libchromatix_imx214_8916_cm9886qr_preview.so \
     vendor/bq/piccolo/proprietary/vendor/lib/libchromatix_imx214_8916_cm9886qr_snapshot.so:system/vendor/lib/libchromatix_imx214_8916_cm9886qr_snapshot.so \
     vendor/bq/piccolo/proprietary/vendor/lib/libchromatix_imx214_8916_cm9886qr_video_hd.so:system/vendor/lib/libchromatix_imx214_8916_cm9886qr_video_hd.so \
+    vendor/bq/piccolo/proprietary/vendor/lib/libchromatix_imx214_8916_common.so:system/vendor/lib/libchromatix_imx214_8916_common.so \
+    vendor/bq/piccolo/proprietary/vendor/lib/libchromatix_imx214_8916_default_video.so:system/vendor/lib/libchromatix_imx214_8916_default_video.so \
+    vendor/bq/piccolo/proprietary/vendor/lib/libchromatix_imx214_8916_hfr_120fps.so:system/vendor/lib/libchromatix_imx214_8916_hfr_120fps.so \
+    vendor/bq/piccolo/proprietary/vendor/lib/libchromatix_imx214_8916_hfr_60fps.so:system/vendor/lib/libchromatix_imx214_8916_hfr_60fps.so \
+    vendor/bq/piccolo/proprietary/vendor/lib/libchromatix_imx214_8916_hfr_90fps.so:system/vendor/lib/libchromatix_imx214_8916_hfr_90fps.so \
+    vendor/bq/piccolo/proprietary/vendor/lib/libchromatix_imx214_8916_liveshot.so:system/vendor/lib/libchromatix_imx214_8916_liveshot.so \
+    vendor/bq/piccolo/proprietary/vendor/lib/libchromatix_imx214_8916_preview.so:system/vendor/lib/libchromatix_imx214_8916_preview.so \
+    vendor/bq/piccolo/proprietary/vendor/lib/libchromatix_imx214_8916_snapshot_hdr.so:system/vendor/lib/libchromatix_imx214_8916_snapshot_hdr.so \
+    vendor/bq/piccolo/proprietary/vendor/lib/libchromatix_imx214_8916_snapshot.so:system/vendor/lib/libchromatix_imx214_8916_snapshot.so \
+    vendor/bq/piccolo/proprietary/vendor/lib/libchromatix_imx214_8916_truly_common.so:system/vendor/lib/libchromatix_imx214_8916_truly_common.so \
+    vendor/bq/piccolo/proprietary/vendor/lib/libchromatix_imx214_8916_truly_default_video.so:system/vendor/lib/libchromatix_imx214_8916_truly_default_video.so \
+    vendor/bq/piccolo/proprietary/vendor/lib/libchromatix_imx214_8916_truly_hfr_120fps.so:system/vendor/lib/libchromatix_imx214_8916_truly_hfr_120fps.so \
+    vendor/bq/piccolo/proprietary/vendor/lib/libchromatix_imx214_8916_truly_hfr_60fps.so:system/vendor/lib/libchromatix_imx214_8916_truly_hfr_60fps.so \
+    vendor/bq/piccolo/proprietary/vendor/lib/libchromatix_imx214_8916_truly_hfr_90fps.so:system/vendor/lib/libchromatix_imx214_8916_truly_hfr_90fps.so \
+    vendor/bq/piccolo/proprietary/vendor/lib/libchromatix_imx214_8916_truly_liveshot.so:system/vendor/lib/libchromatix_imx214_8916_truly_liveshot.so \
+    vendor/bq/piccolo/proprietary/vendor/lib/libchromatix_imx214_8916_truly_preview.so:system/vendor/lib/libchromatix_imx214_8916_truly_preview.so \
+    vendor/bq/piccolo/proprietary/vendor/lib/libchromatix_imx214_8916_truly_snapshot_hdr.so:system/vendor/lib/libchromatix_imx214_8916_truly_snapshot_hdr.so \
+    vendor/bq/piccolo/proprietary/vendor/lib/libchromatix_imx214_8916_truly_snapshot.so:system/vendor/lib/libchromatix_imx214_8916_truly_snapshot.so \
+    vendor/bq/piccolo/proprietary/vendor/lib/libchromatix_imx214_8916_truly_video_hdr.so:system/vendor/lib/libchromatix_imx214_8916_truly_video_hdr.so \
+    vendor/bq/piccolo/proprietary/vendor/lib/libchromatix_imx214_8916_truly_video_hd.so:system/vendor/lib/libchromatix_imx214_8916_truly_video_hd.so \
+    vendor/bq/piccolo/proprietary/vendor/lib/libchromatix_imx214_8916_video_hdr.so:system/vendor/lib/libchromatix_imx214_8916_video_hdr.so \
+    vendor/bq/piccolo/proprietary/vendor/lib/libchromatix_imx214_8916_video_hd.so:system/vendor/lib/libchromatix_imx214_8916_video_hd.so \
+    vendor/bq/piccolo/proprietary/vendor/lib/libchromatix_imx214_common.so:system/vendor/lib/libchromatix_imx214_common.so \
+    vendor/bq/piccolo/proprietary/vendor/lib/libchromatix_imx214_default_video.so:system/vendor/lib/libchromatix_imx214_default_video.so \
+    vendor/bq/piccolo/proprietary/vendor/lib/libchromatix_imx214_f13n05e_common.so:system/vendor/lib/libchromatix_imx214_f13n05e_common.so \
+    vendor/bq/piccolo/proprietary/vendor/lib/libchromatix_imx214_f13n05e_hfr_120fps.so:system/vendor/lib/libchromatix_imx214_f13n05e_hfr_120fps.so \
+    vendor/bq/piccolo/proprietary/vendor/lib/libchromatix_imx214_f13n05e_hfr_60fps.so:system/vendor/lib/libchromatix_imx214_f13n05e_hfr_60fps.so \
+    vendor/bq/piccolo/proprietary/vendor/lib/libchromatix_imx214_f13n05e_hfr_90fps.so:system/vendor/lib/libchromatix_imx214_f13n05e_hfr_90fps.so \
+    vendor/bq/piccolo/proprietary/vendor/lib/libchromatix_imx214_f13n05e_liveshot.so:system/vendor/lib/libchromatix_imx214_f13n05e_liveshot.so \
+    vendor/bq/piccolo/proprietary/vendor/lib/libchromatix_imx214_f13n05e_preview.so:system/vendor/lib/libchromatix_imx214_f13n05e_preview.so \
+    vendor/bq/piccolo/proprietary/vendor/lib/libchromatix_imx214_f13n05e_snapshot_hdr.so:system/vendor/lib/libchromatix_imx214_f13n05e_snapshot_hdr.so \
+    vendor/bq/piccolo/proprietary/vendor/lib/libchromatix_imx214_f13n05e_snapshot.so:system/vendor/lib/libchromatix_imx214_f13n05e_snapshot.so \
+    vendor/bq/piccolo/proprietary/vendor/lib/libchromatix_imx214_f13n05e_video_hdr.so:system/vendor/lib/libchromatix_imx214_f13n05e_video_hdr.so \
+    vendor/bq/piccolo/proprietary/vendor/lib/libchromatix_imx214_f13n05e_video_hd.so:system/vendor/lib/libchromatix_imx214_f13n05e_video_hd.so \
+    vendor/bq/piccolo/proprietary/vendor/lib/libchromatix_imx214_f13n05e_video.so:system/vendor/lib/libchromatix_imx214_f13n05e_video.so \
+    vendor/bq/piccolo/proprietary/vendor/lib/libchromatix_imx214_liveshot.so:system/vendor/lib/libchromatix_imx214_liveshot.so \
+    vendor/bq/piccolo/proprietary/vendor/lib/libchromatix_imx214_olqba15_common.so:system/vendor/lib/libchromatix_imx214_olqba15_common.so \
+    vendor/bq/piccolo/proprietary/vendor/lib/libchromatix_imx214_olqba15_hfr_120fps.so:system/vendor/lib/libchromatix_imx214_olqba15_hfr_120fps.so \
+    vendor/bq/piccolo/proprietary/vendor/lib/libchromatix_imx214_olqba15_hfr_60fps.so:system/vendor/lib/libchromatix_imx214_olqba15_hfr_60fps.so \
+    vendor/bq/piccolo/proprietary/vendor/lib/libchromatix_imx214_olqba15_hfr_90fps.so:system/vendor/lib/libchromatix_imx214_olqba15_hfr_90fps.so \
+    vendor/bq/piccolo/proprietary/vendor/lib/libchromatix_imx214_olqba15_liveshot.so:system/vendor/lib/libchromatix_imx214_olqba15_liveshot.so \
+    vendor/bq/piccolo/proprietary/vendor/lib/libchromatix_imx214_olqba15_preview.so:system/vendor/lib/libchromatix_imx214_olqba15_preview.so \
+    vendor/bq/piccolo/proprietary/vendor/lib/libchromatix_imx214_olqba15_snapshot_hdr.so:system/vendor/lib/libchromatix_imx214_olqba15_snapshot_hdr.so \
+    vendor/bq/piccolo/proprietary/vendor/lib/libchromatix_imx214_olqba15_snapshot.so:system/vendor/lib/libchromatix_imx214_olqba15_snapshot.so \
+    vendor/bq/piccolo/proprietary/vendor/lib/libchromatix_imx214_olqba15_video_hdr.so:system/vendor/lib/libchromatix_imx214_olqba15_video_hdr.so \
+    vendor/bq/piccolo/proprietary/vendor/lib/libchromatix_imx214_olqba15_video_hd.so:system/vendor/lib/libchromatix_imx214_olqba15_video_hd.so \
+    vendor/bq/piccolo/proprietary/vendor/lib/libchromatix_imx214_olqba15_video.so:system/vendor/lib/libchromatix_imx214_olqba15_video.so \
+    vendor/bq/piccolo/proprietary/vendor/lib/libchromatix_imx214_preview.so:system/vendor/lib/libchromatix_imx214_preview.so \
+    vendor/bq/piccolo/proprietary/vendor/lib/libchromatix_imx214_snapshot_hdr.so:system/vendor/lib/libchromatix_imx214_snapshot_hdr.so \
+    vendor/bq/piccolo/proprietary/vendor/lib/libchromatix_imx214_snapshot.so:system/vendor/lib/libchromatix_imx214_snapshot.so \
+    vendor/bq/piccolo/proprietary/vendor/lib/libchromatix_imx214_video_hdr.so:system/vendor/lib/libchromatix_imx214_video_hdr.so \
+    vendor/bq/piccolo/proprietary/vendor/lib/libchromatix_ov13850_common.so:system/vendor/lib/libchromatix_ov13850_common.so \
+    vendor/bq/piccolo/proprietary/vendor/lib/libchromatix_ov13850_default_video.so:system/vendor/lib/libchromatix_ov13850_default_video.so \
+    vendor/bq/piccolo/proprietary/vendor/lib/libchromatix_ov13850_hfr_120fps.so:system/vendor/lib/libchromatix_ov13850_hfr_120fps.so \
+    vendor/bq/piccolo/proprietary/vendor/lib/libchromatix_ov13850_hfr_60fps.so:system/vendor/lib/libchromatix_ov13850_hfr_60fps.so \
+    vendor/bq/piccolo/proprietary/vendor/lib/libchromatix_ov13850_hfr_90fps.so:system/vendor/lib/libchromatix_ov13850_hfr_90fps.so \
+    vendor/bq/piccolo/proprietary/vendor/lib/libchromatix_ov13850_preview.so:system/vendor/lib/libchromatix_ov13850_preview.so \
+    vendor/bq/piccolo/proprietary/vendor/lib/libchromatix_ov13850_snapshot.so:system/vendor/lib/libchromatix_ov13850_snapshot.so \
+    vendor/bq/piccolo/proprietary/vendor/lib/libchromatix_ov16825_common.so:system/vendor/lib/libchromatix_ov16825_common.so \
+    vendor/bq/piccolo/proprietary/vendor/lib/libchromatix_ov16825_default_video.so:system/vendor/lib/libchromatix_ov16825_default_video.so \
+    vendor/bq/piccolo/proprietary/vendor/lib/libchromatix_ov16825_preview.so:system/vendor/lib/libchromatix_ov16825_preview.so \
+    vendor/bq/piccolo/proprietary/vendor/lib/libchromatix_ov16825_snapshot.so:system/vendor/lib/libchromatix_ov16825_snapshot.so \
+    vendor/bq/piccolo/proprietary/vendor/lib/libchromatix_ov2680_5987fhq_common.so:system/vendor/lib/libchromatix_ov2680_5987fhq_common.so \
+    vendor/bq/piccolo/proprietary/vendor/lib/libchromatix_ov2680_5987fhq_default_video.so:system/vendor/lib/libchromatix_ov2680_5987fhq_default_video.so \
+    vendor/bq/piccolo/proprietary/vendor/lib/libchromatix_ov2680_5987fhq_preview.so:system/vendor/lib/libchromatix_ov2680_5987fhq_preview.so \
+    vendor/bq/piccolo/proprietary/vendor/lib/libchromatix_ov2680_5987fhq_snapshot.so:system/vendor/lib/libchromatix_ov2680_5987fhq_snapshot.so \
+    vendor/bq/piccolo/proprietary/vendor/lib/libchromatix_ov2680_common.so:system/vendor/lib/libchromatix_ov2680_common.so \
+    vendor/bq/piccolo/proprietary/vendor/lib/libchromatix_ov2680_default_video.so:system/vendor/lib/libchromatix_ov2680_default_video.so \
+    vendor/bq/piccolo/proprietary/vendor/lib/libchromatix_ov2680_pc0fb0003b_common.so:system/vendor/lib/libchromatix_ov2680_pc0fb0003b_common.so \
+    vendor/bq/piccolo/proprietary/vendor/lib/libchromatix_ov2680_pc0fb0003b_default_video.so:system/vendor/lib/libchromatix_ov2680_pc0fb0003b_default_video.so \
+    vendor/bq/piccolo/proprietary/vendor/lib/libchromatix_ov2680_pc0fb0003b_preview.so:system/vendor/lib/libchromatix_ov2680_pc0fb0003b_preview.so \
+    vendor/bq/piccolo/proprietary/vendor/lib/libchromatix_ov2680_pc0fb0003b_snapshot.so:system/vendor/lib/libchromatix_ov2680_pc0fb0003b_snapshot.so \
+    vendor/bq/piccolo/proprietary/vendor/lib/libchromatix_ov2680_preview.so:system/vendor/lib/libchromatix_ov2680_preview.so \
+    vendor/bq/piccolo/proprietary/vendor/lib/libchromatix_ov2680_snapshot.so:system/vendor/lib/libchromatix_ov2680_snapshot.so \
+    vendor/bq/piccolo/proprietary/vendor/lib/libchromatix_ov2720_common.so:system/vendor/lib/libchromatix_ov2720_common.so \
+    vendor/bq/piccolo/proprietary/vendor/lib/libchromatix_ov2720_default_video.so:system/vendor/lib/libchromatix_ov2720_default_video.so \
+    vendor/bq/piccolo/proprietary/vendor/lib/libchromatix_ov2720_hfr.so:system/vendor/lib/libchromatix_ov2720_hfr.so \
+    vendor/bq/piccolo/proprietary/vendor/lib/libchromatix_ov2720_liveshot.so:system/vendor/lib/libchromatix_ov2720_liveshot.so \
+    vendor/bq/piccolo/proprietary/vendor/lib/libchromatix_ov2720_preview.so:system/vendor/lib/libchromatix_ov2720_preview.so \
+    vendor/bq/piccolo/proprietary/vendor/lib/libchromatix_ov2720_zsl.so:system/vendor/lib/libchromatix_ov2720_zsl.so \
+    vendor/bq/piccolo/proprietary/vendor/lib/libchromatix_ov5648_oty5f03_common.so:system/vendor/lib/libchromatix_ov5648_oty5f03_common.so \
+    vendor/bq/piccolo/proprietary/vendor/lib/libchromatix_ov5648_oty5f03_default_video.so:system/vendor/lib/libchromatix_ov5648_oty5f03_default_video.so \
+    vendor/bq/piccolo/proprietary/vendor/lib/libchromatix_ov5648_oty5f03_preview.so:system/vendor/lib/libchromatix_ov5648_oty5f03_preview.so \
+    vendor/bq/piccolo/proprietary/vendor/lib/libchromatix_ov5648_oty5f03_snapshot.so:system/vendor/lib/libchromatix_ov5648_oty5f03_snapshot.so \
+    vendor/bq/piccolo/proprietary/vendor/lib/libchromatix_ov5648_oty5f03_zsl.so:system/vendor/lib/libchromatix_ov5648_oty5f03_zsl.so \
+    vendor/bq/piccolo/proprietary/vendor/lib/libchromatix_ov5648_p5v18g_common.so:system/vendor/lib/libchromatix_ov5648_p5v18g_common.so \
+    vendor/bq/piccolo/proprietary/vendor/lib/libchromatix_ov5648_p5v18g_default_video_hd.so:system/vendor/lib/libchromatix_ov5648_p5v18g_default_video_hd.so \
+    vendor/bq/piccolo/proprietary/vendor/lib/libchromatix_ov5648_p5v18g_default_video.so:system/vendor/lib/libchromatix_ov5648_p5v18g_default_video.so \
+    vendor/bq/piccolo/proprietary/vendor/lib/libchromatix_ov5648_p5v18g_preview.so:system/vendor/lib/libchromatix_ov5648_p5v18g_preview.so \
+    vendor/bq/piccolo/proprietary/vendor/lib/libchromatix_ov5648_p5v18g_snapshot.so:system/vendor/lib/libchromatix_ov5648_p5v18g_snapshot.so \
+    vendor/bq/piccolo/proprietary/vendor/lib/libchromatix_ov5648_p5v18g_zsl.so:system/vendor/lib/libchromatix_ov5648_p5v18g_zsl.so \
+    vendor/bq/piccolo/proprietary/vendor/lib/libchromatix_ov5648_q5v22e_common.so:system/vendor/lib/libchromatix_ov5648_q5v22e_common.so \
+    vendor/bq/piccolo/proprietary/vendor/lib/libchromatix_ov5648_q5v22e_default_video_hd.so:system/vendor/lib/libchromatix_ov5648_q5v22e_default_video_hd.so \
+    vendor/bq/piccolo/proprietary/vendor/lib/libchromatix_ov5648_q5v22e_default_video.so:system/vendor/lib/libchromatix_ov5648_q5v22e_default_video.so \
+    vendor/bq/piccolo/proprietary/vendor/lib/libchromatix_ov5648_q5v22e_preview.so:system/vendor/lib/libchromatix_ov5648_q5v22e_preview.so \
+    vendor/bq/piccolo/proprietary/vendor/lib/libchromatix_ov5648_q5v22e_snapshot.so:system/vendor/lib/libchromatix_ov5648_q5v22e_snapshot.so \
+    vendor/bq/piccolo/proprietary/vendor/lib/libchromatix_ov5648_q5v22e_zsl.so:system/vendor/lib/libchromatix_ov5648_q5v22e_zsl.so \
+    vendor/bq/piccolo/proprietary/vendor/lib/libchromatix_ov5670_q5v41b_common.so:system/vendor/lib/libchromatix_ov5670_q5v41b_common.so \
+    vendor/bq/piccolo/proprietary/vendor/lib/libchromatix_ov5670_q5v41b_default_video.so:system/vendor/lib/libchromatix_ov5670_q5v41b_default_video.so \
+    vendor/bq/piccolo/proprietary/vendor/lib/libchromatix_ov5670_q5v41b_hfr_120fps.so:system/vendor/lib/libchromatix_ov5670_q5v41b_hfr_120fps.so \
+    vendor/bq/piccolo/proprietary/vendor/lib/libchromatix_ov5670_q5v41b_hfr_60fps.so:system/vendor/lib/libchromatix_ov5670_q5v41b_hfr_60fps.so \
+    vendor/bq/piccolo/proprietary/vendor/lib/libchromatix_ov5670_q5v41b_hfr_90fps.so:system/vendor/lib/libchromatix_ov5670_q5v41b_hfr_90fps.so \
+    vendor/bq/piccolo/proprietary/vendor/lib/libchromatix_ov5670_q5v41b_liveshot.so:system/vendor/lib/libchromatix_ov5670_q5v41b_liveshot.so \
+    vendor/bq/piccolo/proprietary/vendor/lib/libchromatix_ov5670_q5v41b_preview.so:system/vendor/lib/libchromatix_ov5670_q5v41b_preview.so \
+    vendor/bq/piccolo/proprietary/vendor/lib/libchromatix_ov5670_q5v41b_snapshot.so:system/vendor/lib/libchromatix_ov5670_q5v41b_snapshot.so \
+    vendor/bq/piccolo/proprietary/vendor/lib/libchromatix_ov5670_q5v41b_video_hd.so:system/vendor/lib/libchromatix_ov5670_q5v41b_video_hd.so \
+    vendor/bq/piccolo/proprietary/vendor/lib/libchromatix_ov5670_q5v41b_zsl.so:system/vendor/lib/libchromatix_ov5670_q5v41b_zsl.so \
+    vendor/bq/piccolo/proprietary/vendor/lib/libchromatix_ov8825_common.so:system/vendor/lib/libchromatix_ov8825_common.so \
+    vendor/bq/piccolo/proprietary/vendor/lib/libchromatix_ov8825_default_video.so:system/vendor/lib/libchromatix_ov8825_default_video.so \
+    vendor/bq/piccolo/proprietary/vendor/lib/libchromatix_ov8825_hfr_120fps.so:system/vendor/lib/libchromatix_ov8825_hfr_120fps.so \
+    vendor/bq/piccolo/proprietary/vendor/lib/libchromatix_ov8825_hfr_60fps.so:system/vendor/lib/libchromatix_ov8825_hfr_60fps.so \
+    vendor/bq/piccolo/proprietary/vendor/lib/libchromatix_ov8825_hfr_90fps.so:system/vendor/lib/libchromatix_ov8825_hfr_90fps.so \
+    vendor/bq/piccolo/proprietary/vendor/lib/libchromatix_ov8825_liveshot_hd.so:system/vendor/lib/libchromatix_ov8825_liveshot_hd.so \
+    vendor/bq/piccolo/proprietary/vendor/lib/libchromatix_ov8825_liveshot.so:system/vendor/lib/libchromatix_ov8825_liveshot.so \
+    vendor/bq/piccolo/proprietary/vendor/lib/libchromatix_ov8825_preview_hd.so:system/vendor/lib/libchromatix_ov8825_preview_hd.so \
+    vendor/bq/piccolo/proprietary/vendor/lib/libchromatix_ov8825_preview.so:system/vendor/lib/libchromatix_ov8825_preview.so \
+    vendor/bq/piccolo/proprietary/vendor/lib/libchromatix_ov8825_snapshot_hd.so:system/vendor/lib/libchromatix_ov8825_snapshot_hd.so \
+    vendor/bq/piccolo/proprietary/vendor/lib/libchromatix_ov8825_snapshot.so:system/vendor/lib/libchromatix_ov8825_snapshot.so \
+    vendor/bq/piccolo/proprietary/vendor/lib/libchromatix_ov8825_video_hd.so:system/vendor/lib/libchromatix_ov8825_video_hd.so \
+    vendor/bq/piccolo/proprietary/vendor/lib/libchromatix_ov8825_zsl.so:system/vendor/lib/libchromatix_ov8825_zsl.so \
+    vendor/bq/piccolo/proprietary/vendor/lib/libchromatix_ov8858_common.so:system/vendor/lib/libchromatix_ov8858_common.so \
+    vendor/bq/piccolo/proprietary/vendor/lib/libchromatix_ov8858_default_video.so:system/vendor/lib/libchromatix_ov8858_default_video.so \
+    vendor/bq/piccolo/proprietary/vendor/lib/libchromatix_ov8858_hfr_120fps.so:system/vendor/lib/libchromatix_ov8858_hfr_120fps.so \
+    vendor/bq/piccolo/proprietary/vendor/lib/libchromatix_ov8858_hfr_60fps.so:system/vendor/lib/libchromatix_ov8858_hfr_60fps.so \
+    vendor/bq/piccolo/proprietary/vendor/lib/libchromatix_ov8858_hfr_90fps.so:system/vendor/lib/libchromatix_ov8858_hfr_90fps.so \
+    vendor/bq/piccolo/proprietary/vendor/lib/libchromatix_ov8858_liveshot.so:system/vendor/lib/libchromatix_ov8858_liveshot.so \
+    vendor/bq/piccolo/proprietary/vendor/lib/libchromatix_ov8858_preview.so:system/vendor/lib/libchromatix_ov8858_preview.so \
+    vendor/bq/piccolo/proprietary/vendor/lib/libchromatix_ov8858_q8v19w_common.so:system/vendor/lib/libchromatix_ov8858_q8v19w_common.so \
+    vendor/bq/piccolo/proprietary/vendor/lib/libchromatix_ov8858_q8v19w_default_video.so:system/vendor/lib/libchromatix_ov8858_q8v19w_default_video.so \
+    vendor/bq/piccolo/proprietary/vendor/lib/libchromatix_ov8858_q8v19w_hfr_120fps.so:system/vendor/lib/libchromatix_ov8858_q8v19w_hfr_120fps.so \
+    vendor/bq/piccolo/proprietary/vendor/lib/libchromatix_ov8858_q8v19w_hfr_60fps.so:system/vendor/lib/libchromatix_ov8858_q8v19w_hfr_60fps.so \
+    vendor/bq/piccolo/proprietary/vendor/lib/libchromatix_ov8858_q8v19w_hfr_90fps.so:system/vendor/lib/libchromatix_ov8858_q8v19w_hfr_90fps.so \
+    vendor/bq/piccolo/proprietary/vendor/lib/libchromatix_ov8858_q8v19w_liveshot.so:system/vendor/lib/libchromatix_ov8858_q8v19w_liveshot.so \
+    vendor/bq/piccolo/proprietary/vendor/lib/libchromatix_ov8858_q8v19w_preview.so:system/vendor/lib/libchromatix_ov8858_q8v19w_preview.so \
+    vendor/bq/piccolo/proprietary/vendor/lib/libchromatix_ov8858_q8v19w_snapshot.so:system/vendor/lib/libchromatix_ov8858_q8v19w_snapshot.so \
+    vendor/bq/piccolo/proprietary/vendor/lib/libchromatix_ov8858_q8v19w_zsl.so:system/vendor/lib/libchromatix_ov8858_q8v19w_zsl.so \
+    vendor/bq/piccolo/proprietary/vendor/lib/libchromatix_ov8858_snapshot.so:system/vendor/lib/libchromatix_ov8858_snapshot.so \
+    vendor/bq/piccolo/proprietary/vendor/lib/libchromatix_ov8865_q8v18a_common.so:system/vendor/lib/libchromatix_ov8865_q8v18a_common.so \
+    vendor/bq/piccolo/proprietary/vendor/lib/libchromatix_ov8865_q8v18a_default_video.so:system/vendor/lib/libchromatix_ov8865_q8v18a_default_video.so \
+    vendor/bq/piccolo/proprietary/vendor/lib/libchromatix_ov8865_q8v18a_hfr_120fps.so:system/vendor/lib/libchromatix_ov8865_q8v18a_hfr_120fps.so \
+    vendor/bq/piccolo/proprietary/vendor/lib/libchromatix_ov8865_q8v18a_hfr_60fps.so:system/vendor/lib/libchromatix_ov8865_q8v18a_hfr_60fps.so \
+    vendor/bq/piccolo/proprietary/vendor/lib/libchromatix_ov8865_q8v18a_hfr_90fps.so:system/vendor/lib/libchromatix_ov8865_q8v18a_hfr_90fps.so \
+    vendor/bq/piccolo/proprietary/vendor/lib/libchromatix_ov8865_q8v18a_liveshot.so:system/vendor/lib/libchromatix_ov8865_q8v18a_liveshot.so \
+    vendor/bq/piccolo/proprietary/vendor/lib/libchromatix_ov8865_q8v18a_preview.so:system/vendor/lib/libchromatix_ov8865_q8v18a_preview.so \
+    vendor/bq/piccolo/proprietary/vendor/lib/libchromatix_ov8865_q8v18a_snapshot.so:system/vendor/lib/libchromatix_ov8865_q8v18a_snapshot.so \
+    vendor/bq/piccolo/proprietary/vendor/lib/libchromatix_ov8865_q8v18a_video_hd.so:system/vendor/lib/libchromatix_ov8865_q8v18a_video_hd.so \
+    vendor/bq/piccolo/proprietary/vendor/lib/libchromatix_ov8865_q8v18a_zsl.so:system/vendor/lib/libchromatix_ov8865_q8v18a_zsl.so \
+    vendor/bq/piccolo/proprietary/vendor/lib/libchromatix_ov9724_common.so:system/vendor/lib/libchromatix_ov9724_common.so \
+    vendor/bq/piccolo/proprietary/vendor/lib/libchromatix_ov9724_default_video.so:system/vendor/lib/libchromatix_ov9724_default_video.so \
+    vendor/bq/piccolo/proprietary/vendor/lib/libchromatix_ov9724_liveshot.so:system/vendor/lib/libchromatix_ov9724_liveshot.so \
+    vendor/bq/piccolo/proprietary/vendor/lib/libchromatix_ov9724_preview.so:system/vendor/lib/libchromatix_ov9724_preview.so \
+    vendor/bq/piccolo/proprietary/vendor/lib/libchromatix_s5k3l1yx_common.so:system/vendor/lib/libchromatix_s5k3l1yx_common.so \
+    vendor/bq/piccolo/proprietary/vendor/lib/libchromatix_s5k3l1yx_default_video.so:system/vendor/lib/libchromatix_s5k3l1yx_default_video.so \
+    vendor/bq/piccolo/proprietary/vendor/lib/libchromatix_s5k3l1yx_hfr_120fps.so:system/vendor/lib/libchromatix_s5k3l1yx_hfr_120fps.so \
+    vendor/bq/piccolo/proprietary/vendor/lib/libchromatix_s5k3l1yx_hfr_60fps.so:system/vendor/lib/libchromatix_s5k3l1yx_hfr_60fps.so \
+    vendor/bq/piccolo/proprietary/vendor/lib/libchromatix_s5k3l1yx_hfr_90fps.so:system/vendor/lib/libchromatix_s5k3l1yx_hfr_90fps.so \
+    vendor/bq/piccolo/proprietary/vendor/lib/libchromatix_s5k3l1yx_liveshot.so:system/vendor/lib/libchromatix_s5k3l1yx_liveshot.so \
+    vendor/bq/piccolo/proprietary/vendor/lib/libchromatix_s5k3l1yx_preview.so:system/vendor/lib/libchromatix_s5k3l1yx_preview.so \
+    vendor/bq/piccolo/proprietary/vendor/lib/libchromatix_s5k3l1yx_snapshot.so:system/vendor/lib/libchromatix_s5k3l1yx_snapshot.so \
+    vendor/bq/piccolo/proprietary/vendor/lib/libchromatix_s5k3l1yx_video_hd.so:system/vendor/lib/libchromatix_s5k3l1yx_video_hd.so \
+    vendor/bq/piccolo/proprietary/vendor/lib/libchromatix_s5k3l1yx_zsl.so:system/vendor/lib/libchromatix_s5k3l1yx_zsl.so \
+    vendor/bq/piccolo/proprietary/vendor/lib/libchromatix_s5k3m2_cma164qr_common.so:system/vendor/lib/libchromatix_s5k3m2_cma164qr_common.so \
+    vendor/bq/piccolo/proprietary/vendor/lib/libchromatix_s5k3m2_cma164qr_default_video.so:system/vendor/lib/libchromatix_s5k3m2_cma164qr_default_video.so \
+    vendor/bq/piccolo/proprietary/vendor/lib/libchromatix_s5k3m2_cma164qr_hfr_120fps.so:system/vendor/lib/libchromatix_s5k3m2_cma164qr_hfr_120fps.so \
+    vendor/bq/piccolo/proprietary/vendor/lib/libchromatix_s5k3m2_cma164qr_hfr_60fps.so:system/vendor/lib/libchromatix_s5k3m2_cma164qr_hfr_60fps.so \
+    vendor/bq/piccolo/proprietary/vendor/lib/libchromatix_s5k3m2_cma164qr_hfr_90fps.so:system/vendor/lib/libchromatix_s5k3m2_cma164qr_hfr_90fps.so \
+    vendor/bq/piccolo/proprietary/vendor/lib/libchromatix_s5k3m2_cma164qr_preview.so:system/vendor/lib/libchromatix_s5k3m2_cma164qr_preview.so \
+    vendor/bq/piccolo/proprietary/vendor/lib/libchromatix_s5k3m2_cma164qr_snapshot.so:system/vendor/lib/libchromatix_s5k3m2_cma164qr_snapshot.so \
+    vendor/bq/piccolo/proprietary/vendor/lib/libchromatix_S5K4E1_13P1BA_common.so:system/vendor/lib/libchromatix_S5K4E1_13P1BA_common.so \
+    vendor/bq/piccolo/proprietary/vendor/lib/libchromatix_S5K4E1_13P1BA_default_video.so:system/vendor/lib/libchromatix_S5K4E1_13P1BA_default_video.so \
+    vendor/bq/piccolo/proprietary/vendor/lib/libchromatix_S5K4E1_13P1BA_hfr_120fps.so:system/vendor/lib/libchromatix_S5K4E1_13P1BA_hfr_120fps.so \
+    vendor/bq/piccolo/proprietary/vendor/lib/libchromatix_S5K4E1_13P1BA_hfr_60fps.so:system/vendor/lib/libchromatix_S5K4E1_13P1BA_hfr_60fps.so \
+    vendor/bq/piccolo/proprietary/vendor/lib/libchromatix_S5K4E1_13P1BA_hfr_90fps.so:system/vendor/lib/libchromatix_S5K4E1_13P1BA_hfr_90fps.so \
+    vendor/bq/piccolo/proprietary/vendor/lib/libchromatix_S5K4E1_13P1BA_liveshot.so:system/vendor/lib/libchromatix_S5K4E1_13P1BA_liveshot.so \
+    vendor/bq/piccolo/proprietary/vendor/lib/libchromatix_S5K4E1_13P1BA_preview.so:system/vendor/lib/libchromatix_S5K4E1_13P1BA_preview.so \
+    vendor/bq/piccolo/proprietary/vendor/lib/libchromatix_S5K4E1_13P1BA_snapshot.so:system/vendor/lib/libchromatix_S5K4E1_13P1BA_snapshot.so \
+    vendor/bq/piccolo/proprietary/vendor/lib/libchromatix_S5K4E1_13P1BA_video_hd.so:system/vendor/lib/libchromatix_S5K4E1_13P1BA_video_hd.so \
+    vendor/bq/piccolo/proprietary/vendor/lib/libchromatix_S5K4E1_13P1BA_zsl.so:system/vendor/lib/libchromatix_S5K4E1_13P1BA_zsl.so \
+    vendor/bq/piccolo/proprietary/vendor/lib/libchromatix_s5k5e2_cma189_common.so:system/vendor/lib/libchromatix_s5k5e2_cma189_common.so \
+    vendor/bq/piccolo/proprietary/vendor/lib/libchromatix_s5k5e2_cma189_liveshot.so:system/vendor/lib/libchromatix_s5k5e2_cma189_liveshot.so \
+    vendor/bq/piccolo/proprietary/vendor/lib/libchromatix_s5k5e2_cma189_preview.so:system/vendor/lib/libchromatix_s5k5e2_cma189_preview.so \
+    vendor/bq/piccolo/proprietary/vendor/lib/libchromatix_s5k5e2_cma189_snapshot.so:system/vendor/lib/libchromatix_s5k5e2_cma189_snapshot.so \
+    vendor/bq/piccolo/proprietary/vendor/lib/libchromatix_s5k5e2_cma189_video_hd.so:system/vendor/lib/libchromatix_s5k5e2_cma189_video_hd.so \
+    vendor/bq/piccolo/proprietary/vendor/lib/libchromatix_s5k5e2_cma189_video.so:system/vendor/lib/libchromatix_s5k5e2_cma189_video.so \
+    vendor/bq/piccolo/proprietary/vendor/lib/libchromatix_s5k5e2_olq5f19_common.so:system/vendor/lib/libchromatix_s5k5e2_olq5f19_common.so \
+    vendor/bq/piccolo/proprietary/vendor/lib/libchromatix_s5k5e2_olq5f19_liveshot.so:system/vendor/lib/libchromatix_s5k5e2_olq5f19_liveshot.so \
+    vendor/bq/piccolo/proprietary/vendor/lib/libchromatix_s5k5e2_olq5f19_preview.so:system/vendor/lib/libchromatix_s5k5e2_olq5f19_preview.so \
+    vendor/bq/piccolo/proprietary/vendor/lib/libchromatix_s5k5e2_olq5f19_snapshot.so:system/vendor/lib/libchromatix_s5k5e2_olq5f19_snapshot.so \
+    vendor/bq/piccolo/proprietary/vendor/lib/libchromatix_s5k5e2_olq5f19_video_hd.so:system/vendor/lib/libchromatix_s5k5e2_olq5f19_video_hd.so \
+    vendor/bq/piccolo/proprietary/vendor/lib/libchromatix_s5k5e2_olq5f19_video.so:system/vendor/lib/libchromatix_s5k5e2_olq5f19_video.so \
+    vendor/bq/piccolo/proprietary/vendor/lib/libchromatix_s5k5e2_olq5f20_common.so:system/vendor/lib/libchromatix_s5k5e2_olq5f20_common.so \
+    vendor/bq/piccolo/proprietary/vendor/lib/libchromatix_s5k5e2_olq5f20_liveshot.so:system/vendor/lib/libchromatix_s5k5e2_olq5f20_liveshot.so \
+    vendor/bq/piccolo/proprietary/vendor/lib/libchromatix_s5k5e2_olq5f20_preview.so:system/vendor/lib/libchromatix_s5k5e2_olq5f20_preview.so \
+    vendor/bq/piccolo/proprietary/vendor/lib/libchromatix_s5k5e2_olq5f20_snapshot.so:system/vendor/lib/libchromatix_s5k5e2_olq5f20_snapshot.so \
+    vendor/bq/piccolo/proprietary/vendor/lib/libchromatix_s5k5e2_olq5f20_video_hd.so:system/vendor/lib/libchromatix_s5k5e2_olq5f20_video_hd.so \
+    vendor/bq/piccolo/proprietary/vendor/lib/libchromatix_s5k5e2_olq5f20_video.so:system/vendor/lib/libchromatix_s5k5e2_olq5f20_video.so \
+    vendor/bq/piccolo/proprietary/vendor/lib/libchromatix_SKUAA_ST_gc0339_common.so:system/vendor/lib/libchromatix_SKUAA_ST_gc0339_common.so \
+    vendor/bq/piccolo/proprietary/vendor/lib/libchromatix_SKUAA_ST_gc0339_default_video.so:system/vendor/lib/libchromatix_SKUAA_ST_gc0339_default_video.so \
+    vendor/bq/piccolo/proprietary/vendor/lib/libchromatix_SKUAA_ST_gc0339_preview.so:system/vendor/lib/libchromatix_SKUAA_ST_gc0339_preview.so \
+    vendor/bq/piccolo/proprietary/vendor/lib/libchromatix_skuab_shinetech_gc0339_common.so:system/vendor/lib/libchromatix_skuab_shinetech_gc0339_common.so \
+    vendor/bq/piccolo/proprietary/vendor/lib/libchromatix_skuab_shinetech_gc0339_default_video.so:system/vendor/lib/libchromatix_skuab_shinetech_gc0339_default_video.so \
+    vendor/bq/piccolo/proprietary/vendor/lib/libchromatix_skuab_shinetech_gc0339_liveshot.so:system/vendor/lib/libchromatix_skuab_shinetech_gc0339_liveshot.so \
+    vendor/bq/piccolo/proprietary/vendor/lib/libchromatix_skuab_shinetech_gc0339_preview.so:system/vendor/lib/libchromatix_skuab_shinetech_gc0339_preview.so \
+    vendor/bq/piccolo/proprietary/vendor/lib/libchromatix_skuab_shinetech_gc0339_snapshot.so:system/vendor/lib/libchromatix_skuab_shinetech_gc0339_snapshot.so \
+    vendor/bq/piccolo/proprietary/vendor/lib/libchromatix_skuab_shinetech_gc0339_zsl.so:system/vendor/lib/libchromatix_skuab_shinetech_gc0339_zsl.so \
+    vendor/bq/piccolo/proprietary/vendor/lib/libchromatix_SKUAB_ST_s5k4e1_common.so:system/vendor/lib/libchromatix_SKUAB_ST_s5k4e1_common.so \
+    vendor/bq/piccolo/proprietary/vendor/lib/libchromatix_SKUAB_ST_s5k4e1_default_video.so:system/vendor/lib/libchromatix_SKUAB_ST_s5k4e1_default_video.so \
+    vendor/bq/piccolo/proprietary/vendor/lib/libchromatix_SKUAB_ST_s5k4e1_hfr_120fps.so:system/vendor/lib/libchromatix_SKUAB_ST_s5k4e1_hfr_120fps.so \
+    vendor/bq/piccolo/proprietary/vendor/lib/libchromatix_SKUAB_ST_s5k4e1_hfr_60fps.so:system/vendor/lib/libchromatix_SKUAB_ST_s5k4e1_hfr_60fps.so \
+    vendor/bq/piccolo/proprietary/vendor/lib/libchromatix_SKUAB_ST_s5k4e1_hfr_90fps.so:system/vendor/lib/libchromatix_SKUAB_ST_s5k4e1_hfr_90fps.so \
+    vendor/bq/piccolo/proprietary/vendor/lib/libchromatix_SKUAB_ST_s5k4e1_liveshot.so:system/vendor/lib/libchromatix_SKUAB_ST_s5k4e1_liveshot.so \
+    vendor/bq/piccolo/proprietary/vendor/lib/libchromatix_SKUAB_ST_s5k4e1_preview.so:system/vendor/lib/libchromatix_SKUAB_ST_s5k4e1_preview.so \
+    vendor/bq/piccolo/proprietary/vendor/lib/libchromatix_SKUAB_ST_s5k4e1_snapshot.so:system/vendor/lib/libchromatix_SKUAB_ST_s5k4e1_snapshot.so \
+    vendor/bq/piccolo/proprietary/vendor/lib/libchromatix_SKUAB_ST_s5k4e1_video_hd.so:system/vendor/lib/libchromatix_SKUAB_ST_s5k4e1_video_hd.so \
+    vendor/bq/piccolo/proprietary/vendor/lib/libchromatix_SKUAB_ST_s5k4e1_zsl.so:system/vendor/lib/libchromatix_SKUAB_ST_s5k4e1_zsl.so \
+    vendor/bq/piccolo/proprietary/vendor/lib/libchromatix_skuf_ov12830_p12v01c_common.so:system/vendor/lib/libchromatix_skuf_ov12830_p12v01c_common.so \
+    vendor/bq/piccolo/proprietary/vendor/lib/libchromatix_skuf_ov12830_p12v01c_default_video.so:system/vendor/lib/libchromatix_skuf_ov12830_p12v01c_default_video.so \
+    vendor/bq/piccolo/proprietary/vendor/lib/libchromatix_skuf_ov12830_p12v01c_hfr_120fps.so:system/vendor/lib/libchromatix_skuf_ov12830_p12v01c_hfr_120fps.so \
+    vendor/bq/piccolo/proprietary/vendor/lib/libchromatix_skuf_ov12830_p12v01c_hfr_60fps.so:system/vendor/lib/libchromatix_skuf_ov12830_p12v01c_hfr_60fps.so \
+    vendor/bq/piccolo/proprietary/vendor/lib/libchromatix_skuf_ov12830_p12v01c_hfr_90fps.so:system/vendor/lib/libchromatix_skuf_ov12830_p12v01c_hfr_90fps.so \
+    vendor/bq/piccolo/proprietary/vendor/lib/libchromatix_skuf_ov12830_p12v01c_preview.so:system/vendor/lib/libchromatix_skuf_ov12830_p12v01c_preview.so \
+    vendor/bq/piccolo/proprietary/vendor/lib/libchromatix_skuf_ov12830_p12v01c_snapshot.so:system/vendor/lib/libchromatix_skuf_ov12830_p12v01c_snapshot.so \
+    vendor/bq/piccolo/proprietary/vendor/lib/libchromatix_skuf_ov12830_p12v01c_video_hd.so:system/vendor/lib/libchromatix_skuf_ov12830_p12v01c_video_hd.so \
+    vendor/bq/piccolo/proprietary/vendor/lib/libchromatix_skuf_ov12830_p12v01c_zsl.so:system/vendor/lib/libchromatix_skuf_ov12830_p12v01c_zsl.so \
+    vendor/bq/piccolo/proprietary/vendor/lib/libchromatix_skuf_ov5648_p5v23c_common.so:system/vendor/lib/libchromatix_skuf_ov5648_p5v23c_common.so \
+    vendor/bq/piccolo/proprietary/vendor/lib/libchromatix_skuf_ov5648_p5v23c_default_video.so:system/vendor/lib/libchromatix_skuf_ov5648_p5v23c_default_video.so \
+    vendor/bq/piccolo/proprietary/vendor/lib/libchromatix_skuf_ov5648_p5v23c_preview.so:system/vendor/lib/libchromatix_skuf_ov5648_p5v23c_preview.so \
+    vendor/bq/piccolo/proprietary/vendor/lib/libchromatix_skuf_ov5648_p5v23c_snapshot.so:system/vendor/lib/libchromatix_skuf_ov5648_p5v23c_snapshot.so \
     vendor/bq/piccolo/proprietary/etc/firmware/cpp_firmware_v1_1_1.fw:system/etc/firmware/cpp_firmware_v1_1_1.fw \
     vendor/bq/piccolo/proprietary/etc/firmware/cpp_firmware_v1_1_6.fw:system/etc/firmware/cpp_firmware_v1_1_6.fw \
     vendor/bq/piccolo/proprietary/etc/firmware/cpp_firmware_v1_2_0.fw:system/etc/firmware/cpp_firmware_v1_2_0.fw \
@@ -128,8 +477,38 @@ PRODUCT_COPY_FILES += \
     vendor/bq/piccolo/proprietary/vendor/lib/libwvdrm_L3.so:system/vendor/lib/libwvdrm_L3.so \
     vendor/bq/piccolo/proprietary/vendor/lib/libwvm.so:system/vendor/lib/libwvm.so \
     vendor/bq/piccolo/proprietary/vendor/lib/libWVStreamControlAPI_L3.so:system/vendor/lib/libWVStreamControlAPI_L3.so \
+    vendor/bq/piccolo/proprietary/lib/libminui.so:system/lib/libminui.so \
+    vendor/bq/piccolo/proprietary/vendor/lib/mmi_flashlight.so:system/vendor/lib/mmi_flashlight.so \
     vendor/bq/piccolo/proprietary/bin/fmconfig:system/bin/fmconfig \
+    vendor/bq/piccolo/proprietary/bin/fmfactorytest:system/bin/fmfactorytest \
+    vendor/bq/piccolo/proprietary/bin/fmfactorytestserver:system/bin/fmfactorytestserver \
     vendor/bq/piccolo/proprietary/bin/fm_qsoc_patches:system/bin/fm_qsoc_patches \
+    vendor/bq/piccolo/proprietary/bin/ftmdaemon:system/bin/ftmdaemon \
+    vendor/bq/piccolo/proprietary/bin/mmi:system/bin/mmi \
+    vendor/bq/piccolo/proprietary/etc/mmi/mmi.cfg:system/etc/mmi/mmi.cfg \
+    vendor/bq/piccolo/proprietary/etc/mmi/mmi-pcba.cfg:system/etc/mmi/mmi-pcba.cfg \
+    vendor/bq/piccolo/proprietary/etc/mmi/strings.xml:system/etc/mmi/strings.xml \
+    vendor/bq/piccolo/proprietary/etc/mmi/strings-zh-rCN.xml:system/etc/mmi/strings-zh-rCN.xml \
+    vendor/bq/piccolo/proprietary/vendor/lib/libmmi.so:system/vendor/lib/libmmi.so \
+    vendor/bq/piccolo/proprietary/vendor/lib/mmi_audio.so:system/vendor/lib/mmi_audio.so \
+    vendor/bq/piccolo/proprietary/vendor/lib/mmi_battery.so:system/vendor/lib/mmi_battery.so \
+    vendor/bq/piccolo/proprietary/vendor/lib/mmi_bluetooth.so:system/vendor/lib/mmi_bluetooth.so \
+    vendor/bq/piccolo/proprietary/vendor/lib/mmi_camera.so:system/vendor/lib/mmi_camera.so \
+    vendor/bq/piccolo/proprietary/vendor/lib/mmi_cpu.so:system/vendor/lib/mmi_cpu.so \
+    vendor/bq/piccolo/proprietary/vendor/lib/mmi_fm.so:system/vendor/lib/mmi_fm.so \
+    vendor/bq/piccolo/proprietary/vendor/lib/mmi_gps.so:system/vendor/lib/mmi_gps.so \
+    vendor/bq/piccolo/proprietary/vendor/lib/mmi_key.so:system/vendor/lib/mmi_key.so \
+    vendor/bq/piccolo/proprietary/vendor/lib/mmi_lcd.so:system/vendor/lib/mmi_lcd.so \
+    vendor/bq/piccolo/proprietary/vendor/lib/mmi_light.so:system/vendor/lib/mmi_light.so \
+    vendor/bq/piccolo/proprietary/vendor/lib/mmi_memory.so:system/vendor/lib/mmi_memory.so \
+    vendor/bq/piccolo/proprietary/vendor/lib/mmi_nfc.so:system/vendor/lib/mmi_nfc.so \
+    vendor/bq/piccolo/proprietary/vendor/lib/mmi_sensor.so:system/vendor/lib/mmi_sensor.so \
+    vendor/bq/piccolo/proprietary/vendor/lib/mmi_sim.so:system/vendor/lib/mmi_sim.so \
+    vendor/bq/piccolo/proprietary/vendor/lib/mmi_storage.so:system/vendor/lib/mmi_storage.so \
+    vendor/bq/piccolo/proprietary/vendor/lib/mmi_sysinfo.so:system/vendor/lib/mmi_sysinfo.so \
+    vendor/bq/piccolo/proprietary/vendor/lib/mmi_touch.so:system/vendor/lib/mmi_touch.so \
+    vendor/bq/piccolo/proprietary/vendor/lib/mmi_vibrator.so:system/vendor/lib/mmi_vibrator.so \
+    vendor/bq/piccolo/proprietary/vendor/lib/mmi_wifi.so:system/vendor/lib/mmi_wifi.so \
     vendor/bq/piccolo/proprietary/bin/location-mq:system/bin/location-mq \
     vendor/bq/piccolo/proprietary/etc/permissions/com.qualcomm.location.xml:system/etc/permissions/com.qualcomm.location.xml \
     vendor/bq/piccolo/proprietary/vendor/lib/hw/flp.default.so:system/vendor/lib/hw/flp.default.so \
@@ -171,10 +550,8 @@ PRODUCT_COPY_FILES += \
     vendor/bq/piccolo/proprietary/etc/firmware/a330_pm4.fw:system/etc/firmware/a330_pm4.fw \
     vendor/bq/piccolo/proprietary/etc/firmware/a420_pfp.fw:system/etc/firmware/a420_pfp.fw \
     vendor/bq/piccolo/proprietary/etc/firmware/a420_pm4.fw:system/etc/firmware/a420_pm4.fw \
-    vendor/bq/piccolo/proprietary/lib/libOmxVdecHevc.so:system/lib/libOmxVdecHevc.so \
     vendor/bq/piccolo/proprietary/vendor/lib/libDivxDrm.so:system/vendor/lib/libDivxDrm.so \
     vendor/bq/piccolo/proprietary/vendor/lib/libExtendedExtractor.so:system/vendor/lib/libExtendedExtractor.so \
-    vendor/bq/piccolo/proprietary/vendor/lib/libHevcSwDecoder.so:system/vendor/lib/libHevcSwDecoder.so \
     vendor/bq/piccolo/proprietary/vendor/lib/libmmosal.so:system/vendor/lib/libmmosal.so \
     vendor/bq/piccolo/proprietary/vendor/lib/libmmparser.so:system/vendor/lib/libmmparser.so \
     vendor/bq/piccolo/proprietary/vendor/lib/libOmxAacDec.so:system/vendor/lib/libOmxAacDec.so \
@@ -192,7 +569,6 @@ PRODUCT_COPY_FILES += \
     vendor/bq/piccolo/proprietary/vendor/lib/libdsi_netctrl.so:system/vendor/lib/libdsi_netctrl.so \
     vendor/bq/piccolo/proprietary/vendor/lib/libdsutils.so:system/vendor/lib/libdsutils.so \
     vendor/bq/piccolo/proprietary/vendor/lib/libidl.so:system/vendor/lib/libidl.so \
-    vendor/bq/piccolo/proprietary/vendor/lib/libperipheral_client.so:system/vendor/lib/libperipheral_client.so \
     vendor/bq/piccolo/proprietary/vendor/lib/libqcci_legacy.so:system/vendor/lib/libqcci_legacy.so \
     vendor/bq/piccolo/proprietary/vendor/lib/libqdi.so:system/vendor/lib/libqdi.so \
     vendor/bq/piccolo/proprietary/vendor/lib/libqdp.so:system/vendor/lib/libqdp.so \
@@ -209,11 +585,14 @@ PRODUCT_COPY_FILES += \
     vendor/bq/piccolo/proprietary/bin/radish:system/bin/radish \
     vendor/bq/piccolo/proprietary/bin/rfs_access:system/bin/rfs_access \
     vendor/bq/piccolo/proprietary/bin/rmt_storage:system/bin/rmt_storage \
+    vendor/bq/piccolo/proprietary/etc/permissions/qcnvitems.xml:system/etc/permissions/qcnvitems.xml \
+    vendor/bq/piccolo/proprietary/etc/permissions/qcrilhook.xml:system/etc/permissions/qcrilhook.xml \
     vendor/bq/piccolo/proprietary/lib/librmnetctl.so:system/lib/librmnetctl.so \
     vendor/bq/piccolo/proprietary/vendor/lib/libcneapiclient.so:system/vendor/lib/libcneapiclient.so \
     vendor/bq/piccolo/proprietary/vendor/lib/libconfigdb.so:system/vendor/lib/libconfigdb.so \
     vendor/bq/piccolo/proprietary/vendor/lib/libmdmdetect.so:system/vendor/lib/libmdmdetect.so \
     vendor/bq/piccolo/proprietary/vendor/lib/libnetmgr.so:system/vendor/lib/libnetmgr.so \
+    vendor/bq/piccolo/proprietary/vendor/lib/libperipheral_client.so:system/vendor/lib/libperipheral_client.so \
     vendor/bq/piccolo/proprietary/vendor/lib/libril-qc-qmi-1.so:system/vendor/lib/libril-qc-qmi-1.so \
     vendor/bq/piccolo/proprietary/vendor/lib/libril-qcril-hook-oem.so:system/vendor/lib/libril-qcril-hook-oem.so \
     vendor/bq/piccolo/proprietary/vendor/lib/libsystem_health_mon.so:system/vendor/lib/libsystem_health_mon.so \
