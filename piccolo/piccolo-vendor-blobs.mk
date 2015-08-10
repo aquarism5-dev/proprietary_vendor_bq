@@ -477,7 +477,6 @@ PRODUCT_COPY_FILES += \
     vendor/bq/piccolo/proprietary/vendor/lib/libwvdrm_L3.so:system/vendor/lib/libwvdrm_L3.so \
     vendor/bq/piccolo/proprietary/vendor/lib/libwvm.so:system/vendor/lib/libwvm.so \
     vendor/bq/piccolo/proprietary/vendor/lib/libWVStreamControlAPI_L3.so:system/vendor/lib/libWVStreamControlAPI_L3.so \
-    vendor/bq/piccolo/proprietary/lib/libminui.so:system/lib/libminui.so \
     vendor/bq/piccolo/proprietary/vendor/lib/mmi_flashlight.so:system/vendor/lib/mmi_flashlight.so \
     vendor/bq/piccolo/proprietary/bin/fmconfig:system/bin/fmconfig \
     vendor/bq/piccolo/proprietary/bin/fmfactorytest:system/bin/fmfactorytest \
