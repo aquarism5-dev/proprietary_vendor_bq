@@ -24,6 +24,10 @@ PRODUCT_PACKAGES += \
     TimeService
 
 PRODUCT_PACKAGES += \
+    qcnvitems \
+    qcrilhook
+
+PRODUCT_PACKAGES += \
     libmm-abl
 
 PRODUCT_PACKAGES += \
