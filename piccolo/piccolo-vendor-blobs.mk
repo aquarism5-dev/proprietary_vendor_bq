@@ -477,11 +477,6 @@ PRODUCT_COPY_FILES += \
     vendor/bq/piccolo/proprietary/vendor/lib/libwvdrm_L3.so:system/vendor/lib/libwvdrm_L3.so \
     vendor/bq/piccolo/proprietary/vendor/lib/libwvm.so:system/vendor/lib/libwvm.so \
     vendor/bq/piccolo/proprietary/vendor/lib/libWVStreamControlAPI_L3.so:system/vendor/lib/libWVStreamControlAPI_L3.so \
-    vendor/bq/piccolo/proprietary/bin/fmconfig:system/bin/fmconfig \
-    vendor/bq/piccolo/proprietary/bin/fmfactorytest:system/bin/fmfactorytest \
-    vendor/bq/piccolo/proprietary/bin/fmfactorytestserver:system/bin/fmfactorytestserver \
-    vendor/bq/piccolo/proprietary/bin/fm_qsoc_patches:system/bin/fm_qsoc_patches \
-    vendor/bq/piccolo/proprietary/bin/ftmdaemon:system/bin/ftmdaemon \
     vendor/bq/piccolo/proprietary/bin/mmi:system/bin/mmi \
     vendor/bq/piccolo/proprietary/etc/mmi/mmi.cfg:system/etc/mmi/mmi.cfg \
     vendor/bq/piccolo/proprietary/etc/mmi/mmi-pcba.cfg:system/etc/mmi/mmi-pcba.cfg \
