@@ -587,7 +587,6 @@ PRODUCT_COPY_FILES += \
     vendor/bq/piccolo/proprietary/vendor/lib/libperipheral_client.so:system/vendor/lib/libperipheral_client.so \
     vendor/bq/piccolo/proprietary/vendor/lib/libril-qc-qmi-1.so:system/vendor/lib/libril-qc-qmi-1.so \
     vendor/bq/piccolo/proprietary/vendor/lib/libril-qcril-hook-oem.so:system/vendor/lib/libril-qcril-hook-oem.so \
-    vendor/bq/piccolo/proprietary/vendor/lib/libsystem_health_mon.so:system/vendor/lib/libsystem_health_mon.so \
     vendor/bq/piccolo/proprietary/vendor/lib/libxml.so:system/vendor/lib/libxml.so \
     vendor/bq/piccolo/proprietary/bin/sensord:system/bin/sensord \
     vendor/bq/piccolo/proprietary/lib/hw/sensors.msm8916.so:system/lib/hw/sensors.msm8916.so \
