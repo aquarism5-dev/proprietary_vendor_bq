@@ -503,9 +503,6 @@ PRODUCT_COPY_FILES += \
     vendor/bq/piccolo/proprietary/vendor/lib/mmi_touch.so:system/vendor/lib/mmi_touch.so \
     vendor/bq/piccolo/proprietary/vendor/lib/mmi_vibrator.so:system/vendor/lib/mmi_vibrator.so \
     vendor/bq/piccolo/proprietary/vendor/lib/mmi_wifi.so:system/vendor/lib/mmi_wifi.so \
-    vendor/bq/piccolo/proprietary/bin/fmconfig:system/bin/fmconfig \
-    vendor/bq/piccolo/proprietary/bin/fm_qsoc_patches:system/bin/fm_qsoc_patches \
-    vendor/bq/piccolo/proprietary/lib/libqcomfm_jni.so:system/lib/libqcomfm_jni.so \
     vendor/bq/piccolo/proprietary/bin/location-mq:system/bin/location-mq \
     vendor/bq/piccolo/proprietary/etc/permissions/com.qualcomm.location.xml:system/etc/permissions/com.qualcomm.location.xml \
     vendor/bq/piccolo/proprietary/vendor/lib/hw/flp.default.so:system/vendor/lib/hw/flp.default.so \
@@ -581,13 +578,8 @@ PRODUCT_COPY_FILES += \
     vendor/bq/piccolo/proprietary/bin/qmuxd:system/bin/qmuxd \
     vendor/bq/piccolo/proprietary/bin/radish:system/bin/radish \
     vendor/bq/piccolo/proprietary/bin/rfs_access:system/bin/rfs_access \
-    vendor/bq/piccolo/proprietary/bin/rild:system/bin/rild \
     vendor/bq/piccolo/proprietary/bin/rmt_storage:system/bin/rmt_storage \
-    vendor/bq/piccolo/proprietary/etc/permissions/qcnvitems.xml:system/etc/permissions/qcnvitems.xml \
-    vendor/bq/piccolo/proprietary/etc/permissions/qcrilhook.xml:system/etc/permissions/qcrilhook.xml \
-    vendor/bq/piccolo/proprietary/lib/libreference-ril.so:system/lib/libreference-ril.so \
     vendor/bq/piccolo/proprietary/lib/libril.so:system/lib/libril.so \
-    vendor/bq/piccolo/proprietary/lib/librilutils.so:system/lib/librilutils.so \
     vendor/bq/piccolo/proprietary/lib/librmnetctl.so:system/lib/librmnetctl.so \
     vendor/bq/piccolo/proprietary/vendor/lib/libcneapiclient.so:system/vendor/lib/libcneapiclient.so \
     vendor/bq/piccolo/proprietary/vendor/lib/libconfigdb.so:system/vendor/lib/libconfigdb.so \
