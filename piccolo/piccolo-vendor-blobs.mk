@@ -578,8 +578,13 @@ PRODUCT_COPY_FILES += \
     vendor/bq/piccolo/proprietary/bin/qmuxd:system/bin/qmuxd \
     vendor/bq/piccolo/proprietary/bin/radish:system/bin/radish \
     vendor/bq/piccolo/proprietary/bin/rfs_access:system/bin/rfs_access \
+    vendor/bq/piccolo/proprietary/bin/rild:system/bin/rild \
     vendor/bq/piccolo/proprietary/bin/rmt_storage:system/bin/rmt_storage \
+    vendor/bq/piccolo/proprietary/etc/permissions/qcnvitems.xml:system/etc/permissions/qcnvitems.xml \
+    vendor/bq/piccolo/proprietary/etc/permissions/qcrilhook.xml:system/etc/permissions/qcrilhook.xml \
+    vendor/bq/piccolo/proprietary/lib/libreference-ril.so:system/lib/libreference-ril.so \
     vendor/bq/piccolo/proprietary/lib/libril.so:system/lib/libril.so \
+    vendor/bq/piccolo/proprietary/lib/librilutils.so:system/lib/librilutils.so \
     vendor/bq/piccolo/proprietary/lib/librmnetctl.so:system/lib/librmnetctl.so \
     vendor/bq/piccolo/proprietary/vendor/lib/libcneapiclient.so:system/vendor/lib/libcneapiclient.so \
     vendor/bq/piccolo/proprietary/vendor/lib/libconfigdb.so:system/vendor/lib/libconfigdb.so \
