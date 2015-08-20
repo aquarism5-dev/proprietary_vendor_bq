@@ -27,8 +27,7 @@ PRODUCT_PACKAGES += \
     com.qualcomm.location
 
 PRODUCT_PACKAGES += \
-    ims \
-    ims-common
+    ims
 
 PRODUCT_PACKAGES += \
     qcrilmsgtunnel \
