@@ -27,16 +27,7 @@ PRODUCT_PACKAGES += \
     com.qualcomm.location
 
 PRODUCT_PACKAGES += \
-    ims
-
-PRODUCT_PACKAGES += \
-    qcrilmsgtunnel \
-    shutdownlistener \
     TimeService
-
-PRODUCT_PACKAGES += \
-    qcnvitems \
-    qcrilhook
 
 PRODUCT_PACKAGES += \
     libmm-abl

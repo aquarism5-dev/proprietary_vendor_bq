@@ -467,7 +467,6 @@ PRODUCT_COPY_FILES += \
     vendor/bq/piccolo/proprietary/etc/cne/SwimConfig.xml:system/etc/cne/SwimConfig.xml \
     vendor/bq/piccolo/proprietary/etc/permissions/cneapiclient.xml:system/etc/permissions/cneapiclient.xml \
     vendor/bq/piccolo/proprietary/etc/permissions/com.quicinc.cne.xml:system/etc/permissions/com.quicinc.cne.xml \
-    vendor/bq/piccolo/proprietary/lib/libcnefeatureconfig.so:system/lib/libcnefeatureconfig.so \
     vendor/bq/piccolo/proprietary/vendor/lib/libcne.so:system/vendor/lib/libcne.so \
     vendor/bq/piccolo/proprietary/vendor/lib/libcneapiclient.so:system/vendor/lib/libcneapiclient.so \
     vendor/bq/piccolo/proprietary/vendor/lib/libcneconn.so:system/vendor/lib/libcneconn.so \
@@ -564,32 +563,6 @@ PRODUCT_COPY_FILES += \
     vendor/bq/piccolo/proprietary/etc/firmware/a330_pm4.fw:system/etc/firmware/a330_pm4.fw \
     vendor/bq/piccolo/proprietary/etc/firmware/a420_pfp.fw:system/etc/firmware/a420_pfp.fw \
     vendor/bq/piccolo/proprietary/etc/firmware/a420_pm4.fw:system/etc/firmware/a420_pm4.fw \
-    vendor/bq/piccolo/proprietary/bin/ATFWD-daemon:system/bin/ATFWD-daemon \
-    vendor/bq/piccolo/proprietary/bin/imscmservice:system/bin/imscmservice \
-    vendor/bq/piccolo/proprietary/bin/imsdatadaemon:system/bin/imsdatadaemon \
-    vendor/bq/piccolo/proprietary/bin/imsqmidaemon:system/bin/imsqmidaemon \
-    vendor/bq/piccolo/proprietary/bin/ims_rtp_daemon:system/bin/ims_rtp_daemon \
-    vendor/bq/piccolo/proprietary/vendor/lib/lib-dplmedia.so:system/vendor/lib/lib-dplmedia.so \
-    vendor/bq/piccolo/proprietary/vendor/lib/lib-imscamera.so:system/vendor/lib/lib-imscamera.so \
-    vendor/bq/piccolo/proprietary/vendor/lib/lib-imsdpl.so:system/vendor/lib/lib-imsdpl.so \
-    vendor/bq/piccolo/proprietary/vendor/lib/lib-imsqimf.so:system/vendor/lib/lib-imsqimf.so \
-    vendor/bq/piccolo/proprietary/vendor/lib/lib-imsrcs.so:system/vendor/lib/lib-imsrcs.so \
-    vendor/bq/piccolo/proprietary/vendor/lib/lib-imsrcscm.so:system/vendor/lib/lib-imsrcscm.so \
-    vendor/bq/piccolo/proprietary/vendor/lib/lib-imsrcscmclient.so:system/vendor/lib/lib-imsrcscmclient.so \
-    vendor/bq/piccolo/proprietary/vendor/lib/lib-imsrcscmservice.so:system/vendor/lib/lib-imsrcscmservice.so \
-    vendor/bq/piccolo/proprietary/vendor/lib/lib-imss.so:system/vendor/lib/lib-imss.so \
-    vendor/bq/piccolo/proprietary/vendor/lib/lib-imsSDP.so:system/vendor/lib/lib-imsSDP.so \
-    vendor/bq/piccolo/proprietary/vendor/lib/lib-imsvt.so:system/vendor/lib/lib-imsvt.so \
-    vendor/bq/piccolo/proprietary/vendor/lib/lib-imsxml.so:system/vendor/lib/lib-imsxml.so \
-    vendor/bq/piccolo/proprietary/vendor/lib/lib-rcsimssjni.so:system/vendor/lib/lib-rcsimssjni.so \
-    vendor/bq/piccolo/proprietary/vendor/lib/lib-rcsjni.so:system/vendor/lib/lib-rcsjni.so \
-    vendor/bq/piccolo/proprietary/vendor/lib/lib-rtpcommon.so:system/vendor/lib/lib-rtpcommon.so \
-    vendor/bq/piccolo/proprietary/vendor/lib/lib-rtpcore.so:system/vendor/lib/lib-rtpcore.so \
-    vendor/bq/piccolo/proprietary/vendor/lib/lib-rtpdaemoninterface.so:system/vendor/lib/lib-rtpdaemoninterface.so \
-    vendor/bq/piccolo/proprietary/vendor/lib/lib-rtpsl.so:system/vendor/lib/lib-rtpsl.so \
-    vendor/bq/piccolo/proprietary/vendor/lib/libmmrtpdecoder.so:system/vendor/lib/libmmrtpdecoder.so \
-    vendor/bq/piccolo/proprietary/vendor/lib/libmmrtpencoder.so:system/vendor/lib/libmmrtpencoder.so \
-    vendor/bq/piccolo/proprietary/vendor/lib/libvcel.so:system/vendor/lib/libvcel.so \
     vendor/bq/piccolo/proprietary/vendor/lib/libNimsWrap.so:system/vendor/lib/libNimsWrap.so \
     vendor/bq/piccolo/proprietary/vendor/lib/libDivxDrm.so:system/vendor/lib/libDivxDrm.so \
     vendor/bq/piccolo/proprietary/vendor/lib/libExtendedExtractor.so:system/vendor/lib/libExtendedExtractor.so \
@@ -606,7 +579,6 @@ PRODUCT_COPY_FILES += \
     vendor/bq/piccolo/proprietary/vendor/lib/libdisp-aba.so:system/vendor/lib/libdisp-aba.so \
     vendor/bq/piccolo/proprietary/vendor/lib/libmm-abl-oem.so:system/vendor/lib/libmm-abl-oem.so \
     vendor/bq/piccolo/proprietary/bin/irsc_util:system/bin/irsc_util \
-    vendor/bq/piccolo/proprietary/bin/qcom-system-daemon:system/bin/qcom-system-daemon \
     vendor/bq/piccolo/proprietary/vendor/lib/libdiag.so:system/vendor/lib/libdiag.so \
     vendor/bq/piccolo/proprietary/vendor/lib/libdsi_netctrl.so:system/vendor/lib/libdsi_netctrl.so \
     vendor/bq/piccolo/proprietary/vendor/lib/libdsutils.so:system/vendor/lib/libdsutils.so \
@@ -627,17 +599,8 @@ PRODUCT_COPY_FILES += \
     vendor/bq/piccolo/proprietary/bin/qmuxd:system/bin/qmuxd \
     vendor/bq/piccolo/proprietary/bin/radish:system/bin/radish \
     vendor/bq/piccolo/proprietary/bin/rfs_access:system/bin/rfs_access \
-    vendor/bq/piccolo/proprietary/bin/rild:system/bin/rild \
-    vendor/bq/piccolo/proprietary/bin/rmnetcli:system/bin/rmnetcli \
     vendor/bq/piccolo/proprietary/bin/rmt_storage:system/bin/rmt_storage \
-    vendor/bq/piccolo/proprietary/bin/qmiproxy:system/bin/qmiproxy \
-    vendor/bq/piccolo/proprietary/etc/permissions/qcnvitems.xml:system/etc/permissions/qcnvitems.xml \
-    vendor/bq/piccolo/proprietary/etc/permissions/qcrilhook.xml:system/etc/permissions/qcrilhook.xml \
-    vendor/bq/piccolo/proprietary/lib/libreference-ril.so:system/lib/libreference-ril.so \
-    vendor/bq/piccolo/proprietary/lib/libril.so:system/lib/libril.so \
-    vendor/bq/piccolo/proprietary/lib/librilutils.so:system/lib/librilutils.so \
-    vendor/bq/piccolo/proprietary/lib/librmnetctl.so:system/lib/librmnetctl.so \
-    vendor/bq/piccolo/proprietary/vendor/lib/libCommandSvc.so:system/vendor/lib/libCommandSvc.so \
+    vendor/bq/piccolo/proprietary/vendor/lib/libcneapiclient.so:system/vendor/lib/libcneapiclient.so \
     vendor/bq/piccolo/proprietary/vendor/lib/libconfigdb.so:system/vendor/lib/libconfigdb.so \
     vendor/bq/piccolo/proprietary/vendor/lib/libmdmdetect.so:system/vendor/lib/libmdmdetect.so \
     vendor/bq/piccolo/proprietary/vendor/lib/libnetmgr.so:system/vendor/lib/libnetmgr.so \
@@ -653,19 +616,6 @@ PRODUCT_COPY_FILES += \
     vendor/bq/piccolo/proprietary/vendor/lib/libthermalioctl.so:system/vendor/lib/libthermalioctl.so \
     vendor/bq/piccolo/proprietary/bin/time_daemon:system/bin/time_daemon \
     vendor/bq/piccolo/proprietary/vendor/lib/libTimeService.so:system/vendor/lib/libTimeService.so \
-    vendor/bq/piccolo/proprietary/vendor/lib/libwfdcommonutils.so:system/vendor/lib/libwfdcommonutils.so \
-    vendor/bq/piccolo/proprietary/vendor/lib/libwfdhdcpcp.so:system/vendor/lib/libwfdhdcpcp.so \
-    vendor/bq/piccolo/proprietary/vendor/lib/libwfdmmsink.so:system/vendor/lib/libwfdmmsink.so \
-    vendor/bq/piccolo/proprietary/vendor/lib/libwfdmmsrc.so:system/vendor/lib/libwfdmmsrc.so \
-    vendor/bq/piccolo/proprietary/vendor/lib/libwfdmmutils.so:system/vendor/lib/libwfdmmutils.so \
-    vendor/bq/piccolo/proprietary/vendor/lib/libwfdnative.so:system/vendor/lib/libwfdnative.so \
-    vendor/bq/piccolo/proprietary/vendor/lib/libwfdrtsp.so:system/vendor/lib/libwfdrtsp.so \
-    vendor/bq/piccolo/proprietary/vendor/lib/libwfdsm.so:system/vendor/lib/libwfdsm.so \
-    vendor/bq/piccolo/proprietary/vendor/lib/libwfduibcinterface.so:system/vendor/lib/libwfduibcinterface.so \
-    vendor/bq/piccolo/proprietary/vendor/lib/libwfduibcsink.so:system/vendor/lib/libwfduibcsink.so \
-    vendor/bq/piccolo/proprietary/vendor/lib/libwfduibcsinkinterface.so:system/vendor/lib/libwfduibcsinkinterface.so \
-    vendor/bq/piccolo/proprietary/vendor/lib/libwfduibcsrc.so:system/vendor/lib/libwfduibcsrc.so \
-    vendor/bq/piccolo/proprietary/vendor/lib/libwfduibcsrcinterface.so:system/vendor/lib/libwfduibcsrcinterface.so \
     vendor/bq/piccolo/proprietary/etc/firmware/widevine.b00:system/etc/firmware/widevine.b00 \
     vendor/bq/piccolo/proprietary/etc/firmware/widevine.b01:system/etc/firmware/widevine.b01 \
     vendor/bq/piccolo/proprietary/etc/firmware/widevine.b02:system/etc/firmware/widevine.b02 \
